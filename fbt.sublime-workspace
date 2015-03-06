@@ -4,28 +4,56 @@
 		"selected_items":
 		[
 			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"capt",
+				"carousel-caption"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"car",
+				"carousel-caption"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
 				"margin",
-				"margin-left"
+				"margin-top"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"radi",
+				"radioEx1"
 			],
 			[
 				"border-cl",
 				"border-color"
 			],
 			[
-				"border",
-				"border-left"
-			],
-			[
 				"padd",
 				"padding-top"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"padding",
-				"padding"
 			],
 			[
 				"footer",
@@ -40,20 +68,12 @@
 				"background-color"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"back",
 				"background"
 			],
 			[
 				"i",
 				"important"
-			],
-			[
-				"fon",
-				"font-weight"
 			],
 			[
 				"font-",
@@ -98,10 +118,6 @@
 			[
 				"op",
 				"option	Tag"
-			],
-			[
-				"border-",
-				"border-radius"
 			],
 			[
 				"pane",
@@ -200,10 +216,6 @@
 				"padding"
 			],
 			[
-				"car",
-				"carousel-indicators"
-			],
-			[
 				"right",
 				"right-side"
 			],
@@ -263,7 +275,7 @@
 			"file": "fbt-index.html",
 			"settings":
 			{
-				"buffer_size": 23116,
+				"buffer_size": 47075,
 				"line_ending": "Unix"
 			}
 		},
@@ -271,7 +283,15 @@
 			"file": "css/fbt-master.css",
 			"settings":
 			{
-				"buffer_size": 3600,
+				"buffer_size": 7508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/master.js",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -336,6 +356,12 @@
 	},
 	"file_history":
 	[
+		"/Workflow/Code/ExpandingSearchBar/index.html",
+		"/Workflow/Code/ExpandingSearchBar/css/default.css",
+		"/Workflow/Code/ExpandingSearchBar/css/component.css",
+		"/Workflow/Bootstrap/yamm3-master/demo/css/demo.css",
+		"/Workflow/Bootstrap/yamm3-master/yamm/yamm.css",
+		"/Projekte/TUI/FBT/www/js/custom.js",
 		"/Projekte/TUI/FBT/www/css/bootstrap.min.css",
 		"/Workflow/Bootstrap/templates/Knight-Bootstrap-Theme/index.html",
 		"/Projekte/cmp/redesign/www/ie10-viewport-bug-workaround.js",
@@ -475,6 +501,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"user login",
+			"search",
+			"class=\"grid-demo\"",
+			"<li><a href=\"\"></a><a ",
+			"id=\"nav",
+			"logo",
+			"tab-pane",
+			"<b class=\"caret\"></b>",
+			"yamm",
+			"data-format",
+			"econ",
+			"mySelectlist",
+			"split bu",
+			"myDatepicker",
+			"datepicker",
+			"form",
 			"content",
 			"h4",
 			"mehr",
@@ -586,23 +628,7 @@
 			"logo",
 			"sidebar",
 			"login",
-			"carbon",
-			"dark",
-			"page-header",
-			"starter-template",
-			"widget",
-			"font-size: 2",
-			"positio",
-			"rele",
-			"filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF333333',endColorstr='#F2222222', GradientType=0)",
-			"mehr",
-			"#9CB7CF",
-			"#9CB7CF ",
-			"#85A5CC",
-			"#CEE2F0",
-			"#85a5cc",
-			"#4A6491",
-			"#30395C"
+			"carbon"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -610,6 +636,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"class=\"\"",
+			"<li><a ",
+			"<span class=\"caret\"></span>",
+			"mega",
+			"classSelectlist",
+			"fromDatepicker",
 			" Headline",
 			" ",
 			"widget",
@@ -664,15 +696,15 @@
 					"file": "fbt-index.html",
 					"settings":
 					{
-						"buffer_size": 23116,
+						"buffer_size": 47075,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14065,
-								14065
+								45774,
+								45774
 							]
 						],
 						"settings":
@@ -682,7 +714,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4377.0,
+						"translation.y": 13826.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -698,15 +730,15 @@
 					"file": "css/fbt-master.css",
 					"settings":
 					{
-						"buffer_size": 3600,
+						"buffer_size": 7508,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2144,
-								2144
+								5893,
+								5893
 							]
 						],
 						"settings":
@@ -715,7 +747,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2003.0,
+						"translation.y": 5558.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/master.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

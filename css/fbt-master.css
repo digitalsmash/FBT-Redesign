@@ -16,11 +16,11 @@ header{
 	background: #fff;
 	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15);
 	-webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15);
+	/*box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.3);*/
 }
 
 a.logo img{
 	padding-top: 30px;
-	padding-bottom: 30px;
 }
 
 
@@ -55,17 +55,150 @@ h3 {
 
 
 
+/*SubNav*/
 
+.subnav .navbar-nav > li {
+	margin-right: 10px;
+}
+
+.subnav .navbar-nav > li > a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding: 0;
+	color: #004494;
+}
+
+.subnav .navbar-nav > li > a.btn {
+	padding: 6px 12px;
+	color: #fff;
+}
+
+.navbar-collapse {
+	padding-left: 0;
+}
 
 /*MainNav*/
+
+
 .navbar{
 	margin-bottom: 0;
+}
+
+.navbar-collapse {
+	padding: 0;
 }
 
 a.navbar-brand{
 	padding: 0;
 }
 
+.mainnav .navbar-nav > li > a {
+	/*color: #004494;*/
+	color: #333;
+	font-size: 16px;
+	border: none;
+	padding: 15px 25px 15px 25px;
+}
+
+.mainnav .nav>li>a:focus,
+.mainnav .nav>li>a:hover,
+.mainnav .nav .open>a,
+.mainnav .nav .open>a:focus,
+.mainnav .nav .open>a:hover {
+	text-decoration: none;
+	background-color: #fff;
+	color: #004494;
+	z-index: 1001;
+	border-top: 2px solid #004494;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	padding: 13px 24px 15px 24px
+}
+
+.mainnav > nav {
+	border: none;
+}
+
+.mega .nav,
+.mega .collapse,
+.mega .dropup,
+.mega .dropdown {
+  position: static;
+}
+.mega .container {
+  position: relative;
+}
+.mega .dropdown-menu {
+  left: auto;
+}
+.mega .mega-content {
+ /* padding: 20px 30px;*/
+}
+.mega .dropdown.mega-fw .dropdown-menu
+{
+  left: 0;
+  right: 0;
+  padding: 15px;
+  border-radius: 0;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.35);
+  -ms-box-shadow: 7px 7px 7px #999;
+  -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.35);
+  margin-top: -1px;
+}
+
+.mega .dropdown.mega-forms .dropdown-menu{
+	padding: 15px;
+	border-radius: 0;
+	box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.35);
+	-ms-box-shadow: 7px 7px 7px #999;
+	-webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.35);
+	margin-top: -1px;	
+}
+
+.mainnav li.nav-grid ul>li{
+	padding-bottom: 10px;
+}
+
+.mainnav li.nav-grid ul>li>a{
+	font-weight: 600;
+	color: #004494;
+}
+
+.mainnav li.nav-grid ul>li>a>p{
+	color: #555;
+	font-size: 12px;
+	font-weight: 300;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+.mainnav li.nav-grid ul>li:last-child>a>p{
+	color: #555;
+	font-size: 12px;
+	font-weight: 300;
+	border-bottom: none;
+	padding-bottom: 10px;
+}
+
+.mainnav li.nav-grid ul.third {
+	margin-top: -15px;
+}
+
+.mainnav li.nav-grid ul.third>li {
+	border-bottom: 1px solid #ccc;
+	padding-top: 10px;
+}
+
+.mainnav li.nav-grid ul.third>li>a {
+	padding-left: 15px;
+	font-size: 12px;
+}
+
+.mainnav li.nav-grid ul.third>li:last-child{
+	border-bottom: none;
+}
 
 
 /*Carousel*/
@@ -81,7 +214,7 @@ a.navbar-brand{
    bottom: 0;
 	left: auto;
 	width: auto;
-	right: 110px;
+	right: 180px;
 	margin-left: 5px;
 
 }
@@ -121,11 +254,24 @@ a.navbar-brand{
 
 .carousel-caption{
 	text-align: left;
-	width: 500px;
-	top: 0;
+	width: 550px;
+	bottom: 250px;
 	left: auto;
 	right: 10%;
+	text-shadow: 0 2px 2px rgba(0,0,0,.6);
+	/*text-shadow: -1px 1px 0 rgba(0,0,0,0.2);*/
 }
+
+.carousel-caption h3{
+	color: #fff;
+	font-size: 36px;
+}
+
+.carousel-caption p{
+	color: #fff;
+	font-size: 20px;
+}
+
 
 /*Panel Buchung*/
 
@@ -192,7 +338,11 @@ a.navbar-brand{
 
 /*Scaffholding*/
 
-.btn > i{
+.btn, .form-control{
+	border-radius: 2px;
+}
+
+.carousel-caption .btn > i{
 	margin-right: 10px;
 }
 
@@ -202,9 +352,25 @@ a.navbar-brand{
 }
 
 
-.btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover{
-	background-color: #358622;
-	border-color: #358622;
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover
+{
+	background-color: #358622 !important;
+	border-color: #358622 !important;
+}
+
+.btn-caption {
+	background-color: transparent;
+	border-color: #fff;
+	color: #fff;
+}
+
+.btn-caption.focus, .btn-caption:active, .btn-caption:focus, .btn-caption:hover{
+	background-color: #004494;
+	border-color: #022a58;
+	color: #f9f9f9;
 }
 
 
@@ -214,7 +380,11 @@ a.navbar-brand{
 	color: white;
 }
 
-.btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover{
+.btn-default.focus,
+.btn-default:active,
+.btn-default:focus,
+.btn-default:hover
+{
 	background-color: #004494;
 	border-color: #022a58;
 	color: #f9f9f9;
@@ -231,6 +401,12 @@ a.navbar-brand{
 	font-weight: 300;
 }
 
+/*SEARCH BOX*/
+
+#search {
+	width: 70px;
+	float: right;
+}
 
 /*Content*/
 .content.container{
