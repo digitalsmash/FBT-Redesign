@@ -8,8 +8,6 @@ $(document).ready(function(){
 
 $("#search").focus(function(){$(this).animate({width:"100%"})}).blur(function(){$(this).animate({width:"80px"})});
 
-//
-
 
 $('#myCarousel').carousel({
 interval:   6000
