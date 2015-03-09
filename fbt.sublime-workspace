@@ -1,0 +1,857 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"capt",
+				"carousel-caption"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"car",
+				"carousel-caption"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"radi",
+				"radioEx1"
+			],
+			[
+				"border-cl",
+				"border-color"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"footer",
+				"footer-content"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"nav",
+				"nav"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"inpu",
+				"input-append"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"li",
+				"list-group-item"
+			],
+			[
+				"co",
+				"configuration"
+			],
+			[
+				"In",
+				"important"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"pane",
+				"panel-default"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"block",
+				"blockquote"
+			],
+			[
+				"a",
+				"a0c8e6"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"widget",
+				"widget"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"footer-",
+				"footer-wrapper"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"brand",
+				"brand-individual"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"bra",
+				"brand-list"
+			],
+			[
+				"inlin",
+				"inline-table"
+			],
+			[
+				"span",
+				"span6"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"right",
+				"right-side"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"top",
+				"toplevel"
+			],
+			[
+				"navb",
+				"navbar-inner"
+			],
+			[
+				"drop",
+				"dropdown-menu"
+			],
+			[
+				"d",
+				"dropdown-toggle"
+			],
+			[
+				"bootstrap",
+				"bootstrap-select"
+			],
+			[
+				"table",
+				"table-hover"
+			],
+			[
+				"I",
+				"important"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"news",
+				"news-caption"
+			],
+			[
+				"caru",
+				"carousel-caption"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "fbt-index.html",
+			"settings":
+			{
+				"buffer_size": 47075,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/fbt-master.css",
+			"settings":
+			{
+				"buffer_size": 7508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/master.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"selected_items":
+		[
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ft",
+				"Preferences: Settings - Default"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"",
+				"Snippet: html"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Workflow/Code/ExpandingSearchBar/index.html",
+		"/Workflow/Code/ExpandingSearchBar/css/default.css",
+		"/Workflow/Code/ExpandingSearchBar/css/component.css",
+		"/Workflow/Bootstrap/yamm3-master/demo/css/demo.css",
+		"/Workflow/Bootstrap/yamm3-master/yamm/yamm.css",
+		"/Projekte/TUI/FBT/www/js/custom.js",
+		"/Projekte/TUI/FBT/www/css/bootstrap.min.css",
+		"/Workflow/Bootstrap/templates/Knight-Bootstrap-Theme/index.html",
+		"/Projekte/cmp/redesign/www/ie10-viewport-bug-workaround.js",
+		"/Projekte/cmp/redesign/www/css/cover.css",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/sass/_global.scss",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/sass/_variables.scss",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/sass/_peter.scss",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/sass/style.scss",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/sass/style.css",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/sass/_custommixxins.scss",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/templates/comment.tpl.php",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/templates/comment-wrapper.tpl.php",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/templates/page.tpl.php",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/templates/node.tpl.php",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/css/custom.css",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/sass/_front.scss",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/bootstrap-sass/bootstrap/_mixins.scss",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/bootstrap-sass/bootstrap/_type.scss",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/bootstrap/templates/comment-wrapper.tpl.php",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/bootstrap/templates/comment.tpl.php",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/localhost2/settings.php",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/default/settings.php",
+		"/Users/benyeip/Library/Application Support/Sublime Text 2/Packages/SASS Build/SASS.sublime-build",
+		"/Users/benyeip/Library/Application Support/Sublime Text 2/Packages/SASS Build/SASS - Compressed.sublime-build",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/css/style.css",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal-local.sublime-project",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal-local.sublime-workspace",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/.htaccess",
+		"/Users/benyeip/Library/Application Support/Sublime Text 2/Packages/User/FTPSync.sublime-settings",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/LICENSE.txt",
+		"/Users/benyeip/Library/Application Support/Sublime Text 2/Packages/FTPSync/FTPSync.sublime-settings",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/templates/local-discover.sublime-project",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/sites/all/themes/discover/templates/local-discover.sublime-workspace",
+		"/Projekte/TUI/Next-discover-drupal/www/test.css",
+		"/Projekte/TUI/Next-discover-drupal/www/test.scss.haml",
+		"/Users/benyeip/Library/Application Support/Sublime Text 2/Packages/User/ftpsync.settings",
+		"/Projekte/TUI/Next-discover-drupal/www/clone/drupal/ftpsync.settings",
+		"/Projekte/TUI/Next-discover-drupal/Public-pages/www/css/color-theme.css",
+		"/Projekte/TUI/Next-discover-drupal/Public-pages/www/css/ie8.css",
+		"/Projekte/TUI/Next-discover-drupal/Public-pages/www/css/ftpsync.settings",
+		"/Projekte/TUI/Next-discover-drupal/Public-pages/www/css/master-draft.css",
+		"/Projekte/TUI/Next-discover-drupal/Public-pages/www/css/master.css",
+		"/Projekte/TUI/TUIFly-TakeOff/www/assets/bootstrap/css/bootstrap.css",
+		"/Projekte/TUI/TUIFly-TakeOff/www/css/select2.css",
+		"/Projekte/TUI/TUIFly-TakeOff/www/css/bootstrap-theme.css",
+		"/Projekte/TUI/TUI-Suisse-Logo/redesign/index.html",
+		"/Projekte/TUI/TUI-Suisse-Logo/redesign/mega.html",
+		"/Workflow/Bootstrap/Bootstrap-Assets/yamm3-master/demo/css/demo.css",
+		"/Workflow/Bootstrap/Bootstrap-Assets/yamm3-master/yamm/yamm.css",
+		"/Workflow/Bootstrap/Bootstrap-Assets/yamm3-master/demo/jade/navbar-grid.jade",
+		"/Workflow/Bootstrap/Bootstrap-Assets/yamm3-master/README.md",
+		"/Workflow/Bootstrap/Bootstrap-Assets/yamm3-master/composer.json",
+		"/Projekte/TUI/TUI-Suisse/final-CMS/template/css/custom.css",
+		"/Projekte/TUI/TUI-Suisse/final-CMS/template/index.html",
+		"/Projekte/TUI/TUI-Suisse-Logo/redesign/css/bootstrap.min.css",
+		"/Projekte/TUI/TUI-NTAS-Archiv/www/css/master.css",
+		"/Projekte/TUI/TUI-NTAS-Archiv/www/index.html",
+		"/usr/local/apache-tomcat-7.0.42/webapps/soko/VAADIN/themes/soko/soko.css",
+		"/usr/local/apache-tomcat-7.0.42/webapps/soko/VAADIN/themes/soko/styles.scss",
+		"/Projekte/TUI/TUI-Discover/www/css/ie8.css",
+		"/Projekte/TUI/TUI-Suisse/re-design/template/ftpsync.settings",
+		"/Projekte/TUI/TUI-Discover/www/js/assets/bootstrap-tabdrop.js",
+		"/Projekte/TUI/TUI-Discover/www/test.html",
+		"/Projekte/TUI/TUI-Discover/www/js/assets/appendAround.js",
+		"/Workflow/Bootstrap/bootstrap-3.0.0/dist/css/bootstrap-theme.css",
+		"/Workflow/Bootstrap/bootstrap-3.0.0/less/alerts.less",
+		"/Projekte/TUI/TUI-Discover/www/colleague-page.html",
+		"/Projekte/TUI/TUI-Discover/www/js/custom.js",
+		"/Projekte/TUI/TUI-Discover/www/snippet-modal.html",
+		"/Projekte/TUI/TUI-Discover/www/js/bootstrap.js",
+		"/Projekte/TUI/TUI-Discover/www/js/assets/jquery.smooth-scroll.min.js",
+		"/Projekte/TUI/TUI-Discover/www/css/master.css",
+		"/Projekte/TUI/TUI-Discover/www/js/jquery-min.js",
+		"/Projekte/TUI/TUI-Discover/www/snippet.html",
+		"/Projekte/TUI/TUI-Discover/www/js/assets/bootstrap-modal.js",
+		"/Projekte/TUI/TUI-Discover/www/css/ftpsync.settings",
+		"/Projekte/TUI/TUI-Discover/www/js/assets/bootstrap-modalmanager.js",
+		"/Projekte/TUI/TUI-Discover/www/css/bootstrap-modal.css",
+		"/Projekte/TUI/TUI-Discover/www/css/bootstrap-responsive.css",
+		"/Projekte/TUI/TUI-Discover/www/css/master2.css",
+		"/Projekte/TUI/TUI-Discover/www/discover.sublime-project",
+		"/Projekte/TUI/TUI-Discover/www/discover.sublime-workspace",
+		"/Projekte/TUI/TUI-Discover/www/css/back_master.css",
+		"/Projekte/TUI/TUI-Discover/www/brand-directory.html",
+		"/Projekte/TUI/TUI-Discover/www/css/combo.css",
+		"/Projekte/TUI/TUI-Discover/www/css/bootstrap.css",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/brand-directory.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/brand-individual.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/colleague-directory.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/colleague-page.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/discussion-forum.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/selection-page2.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/selection-page.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/content.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/index.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/snippet.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/js/assets/combo.js",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/js/custom.js",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/reset-password.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/user-account-request.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/login.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/user-profile.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/test-footer.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/js/assets/jquery.smooth-scroll.min.js",
+		"/Users/peterbenyei/Work/Workflow/frameworks/bootstrap-asets/twitter-bootstrap/ScrollSpy-example.html",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/js/bootstrap-select.js",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/css/bootstrap-select.min.css",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/css/bootstrap-combobox.css",
+		"/Users/peterbenyei/Work/Workflow/frameworks/bootstrap-asets/silviomoreto-bootstrap-select-c41d35a/bootstrap-select.min.css",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/bootstrap-combobox.css",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/js/rating-widget.js",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/02A+B-Content.html",
+		"/Users/peterbenyei/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/peterbenyei/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/ftpsync.settings",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/ftpsync.setting",
+		"/Users/peterbenyei/Library/Application Support/Sublime Text 2/Packages/User/FTPSync.sublime-settings",
+		"/Users/peterbenyei/Library/Application Support/Sublime Text 2/Packages/FTPSync/FTPSync.sublime-settings",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/ftpsync.settings-back",
+		"/Users/peterbenyei/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/css/master.css",
+		"/Users/peterbenyei/Desktop/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"user login",
+			"search",
+			"class=\"grid-demo\"",
+			"<li><a href=\"\"></a><a ",
+			"id=\"nav",
+			"logo",
+			"tab-pane",
+			"<b class=\"caret\"></b>",
+			"yamm",
+			"data-format",
+			"econ",
+			"mySelectlist",
+			"split bu",
+			"myDatepicker",
+			"datepicker",
+			"form",
+			"content",
+			"h4",
+			"mehr",
+			"btn",
+			"Thumbnail label",
+			"fonts",
+			" target=\"_blank\"",
+			"inner",
+			"masthead",
+			"cover",
+			"inner-",
+			"fluid",
+			"cover-container",
+			"lineh",
+			"body",
+			"header",
+			"submitted",
+			"news",
+			",",
+			"yellow",
+			"red",
+			"body {",
+			"body",
+			"tui ag",
+			"profile",
+			"switch",
+			"intranet",
+			"public",
+			"log in",
+			"item",
+			"value",
+			"public",
+			"feed",
+			"customer",
+			"rating",
+			"data-set=\"p",
+			"switch-profile",
+			"top-l",
+			"topl",
+			"navbar toplevel pull-right",
+			"digi",
+			"feed ba",
+			"world",
+			"profile",
+			"e2",
+			"minimumResultsForSearch",
+			"left",
+			"configuration",
+			"#",
+			"panel",
+			"logo",
+			" for=\"exampleInputEmail2\"",
+			"read",
+			"table",
+			"su",
+			"btn-sucsess",
+			"btn-su",
+			"cal",
+			".navbar-nav",
+			"inverse",
+			"config",
+			"flight",
+			"panels",
+			"'img/select2.png'",
+			".png",
+			"select2.png",
+			".png",
+			"border-radius:",
+			"container",
+			"login",
+			"background: transparent;",
+			".visib",
+			"tex img",
+			"panel",
+			"2px",
+			"home",
+			"extra",
+			"list-group-item",
+			"btn-oldstyle",
+			"btn-custom",
+			"btn-group\nbtn-group",
+			"> p",
+			"foote",
+			"typo",
+			".active",
+			"typo3",
+			"<a class=\"label label-primary\" href=\"http://sevenx.de/demo/bootstrap-carousel/\" target=\"_blank\">Free Bootstrap Carousel Collection</a>",
+			"h4",
+			"typo",
+			"car",
+			"toolt",
+			"nav",
+			"user",
+			"fa fa-user",
+			"main",
+			"divider",
+			"font",
+			"content",
+			"grid-mega",
+			"gird-demo",
+			"grid-demo",
+			".grid-demo",
+			"yamm",
+			".yamm",
+			"content",
+			"News Carousel",
+			"font-f",
+			"lead",
+			"logo",
+			"sidebar",
+			"login",
+			"carbon"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"class=\"\"",
+			"<li><a ",
+			"<span class=\"caret\"></span>",
+			"mega",
+			"classSelectlist",
+			"fromDatepicker",
+			" Headline",
+			" ",
+			"widget",
+			"mainnav",
+			" container-fluid",
+			" ",
+			".navbar-grid",
+			"'../img/select2.png'",
+			"\"img/select2.png\"",
+			"img/select2.png",
+			"btn-extra",
+			"btn-default",
+			"<a class=\"btn btn-primary\">Read more</a>",
+			"<a class=\"btn btn-primary>Read more</a>",
+			"grid-mega",
+			".grid-mega",
+			"mega",
+			".mega",
+			"#BBD0E3",
+			"#9CB7CF",
+			"#CEE2F0",
+			"#526FA1",
+			"#3B4670",
+			"<td class=\"hidden-phone hidden-tablet\"> ",
+			" ",
+			"search-brand",
+			"<p>PA to Corporate Communications Director</p>\n<p>Corporate Communications</p>",
+			"<img class=\"hidden-phone\" src=\"data/content/brand-logos/brand-logo-1.jpg\">",
+			"widget",
+			"discussions",
+			"thumbs-up",
+			"brand-nav",
+			"<h1",
+			" ",
+			"border-radius: 0px;",
+			"btn-one"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "fbt-index.html",
+					"settings":
+					{
+						"buffer_size": 47075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45774,
+								45774
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 13826.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "css/fbt-master.css",
+					"settings":
+					{
+						"buffer_size": 7508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5893,
+								5893
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5558.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/master.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.668865615431,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 615.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/peterbenyei/Work/TUI/TUI-discover/www/discover.sublime-project"
+			]
+		],
+		"width": 672.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true
+}
