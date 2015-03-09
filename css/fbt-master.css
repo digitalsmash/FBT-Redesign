@@ -393,12 +393,18 @@ a.navbar-brand{
 .btn-light{
 	background-color: transparent;
 	border-color: #ccc;
+	color: #333;
+}
+
+.content .btn-light:hover{
+	color: #004494;
 }
 
 .label-default{
 	background-color: #41a62a;
 	padding: 0.3em .6em .3em;
 	font-weight: 300;
+	font-size: 80%;
 }
 
 /*SEARCH BOX*/
@@ -464,15 +470,16 @@ a.navbar-brand{
 	margin: 0 10px 0 0;
 }
 
-a.list-group-item .list-group-item-heading:hover{
+a.list-group-item:hover>h4, #news-list a:hover>h3{
 	color: #004494;
+	text-decoration: underline;
 }
 
 p.list-group-item-text{
 	margin-left: 90px;
 }
 
-.news.list-group span.date{
+span.date{
 	font-size: 12px;
 	margin-left: 5px;
 	/*color:#a3abaf;*/
