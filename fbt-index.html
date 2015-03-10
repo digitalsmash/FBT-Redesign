@@ -73,7 +73,7 @@
                     </form>
                   </li>
                   <li class=""><button class="btn btn-default navbar-btn" href="#"><i class="fa fa-suitcase"></i> Online-Check-in</a></li>
-                  <li><button class="btn btn-primary navbar-btn" href="#"><i class="fa fa-lock"></i> User Login</a></li>
+                  <li><button class="btn btn-primary navbar-btn" href="#" data-toggle="modal" data-target=".bs-modal-sm"><i class="fa fa-lock"></i> User Login</a></li>
                 </ul>
 
                 </div><!--/.nav-collapse -->
@@ -789,46 +789,179 @@
   </div> <!-- Carousel ENDE -->
 
   <div class="content container">
+
+  <!-- Modal -->
+<div class="modal fade bs-modal-sm" id="login" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+        <br>
+        <div class="bs-example bs-example-tabs">
+            <ul id="myTab" class="nav nav-tabs">
+              <li class="active"><a href="#signin" data-toggle="tab">Sign In</a></li>
+              <li class=""><a href="#signup" data-toggle="tab">Register</a></li>
+              <li class=""><a href="#why" data-toggle="tab">Why?</a></li>
+            </ul>
+        </div>
+      <div class="modal-body">
+        <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in" id="why">
+        <p>We need this information so that you can receive access to the site and its content. Rest assured your information will not be sold, traded, or given to anyone.</p>
+        <p></p><br> Please contact <a mailto:href="JoeSixPack@Sixpacksrus.com"></a>JoeSixPack@Sixpacksrus.com</a> for any other inquiries.</p>
+        </div>
+        <div class="tab-pane fade active in" id="signin">
+            <form class="form-horizontal">
+            <fieldset>
+            <!-- Sign In Form -->
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Alias:</label>
+              <div class="controls">
+                <input required="" id="userid" name="userid" type="text" class="form-control" placeholder="JoeSixpack" class="input-medium" required="">
+              </div>
+            </div>
+
+            <!-- Password input-->
+            <div class="control-group">
+              <label class="control-label" for="passwordinput">Password:</label>
+              <div class="controls">
+                <input required="" id="passwordinput" name="passwordinput" class="form-control" type="password" placeholder="********" class="input-medium">
+              </div>
+            </div>
+
+            <!-- Multiple Checkboxes (inline) -->
+            <div class="control-group">
+              <label class="control-label" for="rememberme"></label>
+              <div class="controls">
+                <label class="checkbox inline" for="rememberme-0">
+                  <input type="checkbox" name="rememberme" id="rememberme-0" value="Remember me">
+                  Remember me
+                </label>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="control-group">
+              <label class="control-label" for="signin"></label>
+              <div class="controls">
+                <button id="signin" name="signin" class="btn btn-success">Sign In</button>
+              </div>
+            </div>
+            </fieldset>
+            </form>
+        </div>
+        <div class="tab-pane fade" id="signup">
+            <form class="form-horizontal">
+            <fieldset>
+            <!-- Sign Up Form -->
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="Email">Email:</label>
+              <div class="controls">
+                <input id="Email" name="Email" class="form-control" type="text" placeholder="JoeSixpack@sixpacksrus.com" class="input-large" required="">
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Alias:</label>
+              <div class="controls">
+                <input id="userid" name="userid" class="form-control" type="text" placeholder="JoeSixpack" class="input-large" required="">
+              </div>
+            </div>
+            
+            <!-- Password input-->
+            <div class="control-group">
+              <label class="control-label" for="password">Password:</label>
+              <div class="controls">
+                <input id="password" name="password" class="form-control" type="password" placeholder="********" class="input-large" required="">
+                <em>1-8 Characters</em>
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="reenterpassword">Re-Enter Password:</label>
+              <div class="controls">
+                <input id="reenterpassword" class="form-control" name="reenterpassword" type="password" placeholder="********" class="input-large" required="">
+              </div>
+            </div>
+            
+            <!-- Multiple Radios (inline) -->
+            <br>
+            <div class="control-group">
+              <label class="control-label" for="humancheck">Humanity Check:</label>
+              <div class="controls">
+                <label class="radio inline" for="humancheck-0">
+                  <input type="radio" name="humancheck" id="humancheck-0" value="robot" checked="checked">I'm a Robot</label>
+                <label class="radio inline" for="humancheck-1">
+                  <input type="radio" name="humancheck" id="humancheck-1" value="human">I'm Human</label>
+              </div>
+            </div>
+            
+            <!-- Button -->
+            <div class="control-group">
+              <label class="control-label" for="confirmsignup"></label>
+              <div class="controls">
+                <button id="confirmsignup" name="confirmsignup" class="btn btn-success">Sign Up</button>
+              </div>
+            </div>
+            </fieldset>
+            </form>
+      </div>
+    </div>
+      </div>
+      <div class="modal-footer">
+      <center>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal ENDE -->
+
+
     <div class="row">
       <div class="col-md-8">
         <div id="news-list" class="widget">
           <h3>Business Travel News</h3>
           <div class="row">
           <div class="col-md-6">
-            <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+            <img class="img-responsive" src="data/content-3.jpg" alt="">
             <a href="#"><h3 class="news">Ein zweiter Reisepass hilft, Ärger zu vermeiden</h3></a>
             <p><a href=""><span class="label label-default">Destination</span></a><span class="date"><i class="fa fa-calendar"></i> 24.02.2015</span></p>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat consetetur sadipscing elitr.
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat consetetur sadipscing elitr consetetur sadipscing elitr, sed diam nonumy. sed diam nonumy eirmod tempor invidunt.
             </p>
-            <a class="btn btn-light" href="#"><i class="fa fa-angle-right"></i> zum Arktikel</a>
+            <!-- <a class="btn btn-primary" href="#"><i class="fa fa-angle-right"></i> zum Arktikel</a> -->
           </div>
 
           <div class="col-md-6">
             <div class="news list-group">
               <a href="#" class="list-group-item ">
-                <img class="img-responsive" src="http://placehold.it/100x100" alt="">
+                <img class="img-responsive" src="data/content-1.jpg" alt="">
                 <h4 class="list-group-item-heading">Autobahnsperren am ersten März-Wochenende</h4>
                 <p class="list-group-item-text">
                   <span class="label label-default">Destination</span> <span class="date"><i class="fa fa-calendar"></i> 24.02.2015</span>
                 </p>
               </a>
               <a href="#" class="list-group-item ">
-                <img class="img-responsive" src="http://placehold.it/100x100" alt="">
+                <img class="img-responsive" src="data/content-2.jpg" alt="">
                 <h4 class="list-group-item-heading">Korean Air erweitert ihr Netzwerk in China</h4>
                 <p class="list-group-item-text">
                   <span class="label label-default">Destination</span> <span class="date"><i class="fa fa-calendar"></i> 24.02.2015</span>
                 </p>
               </a>
               <a href="#" class="list-group-item ">
-                <img class="img-responsive" src="http://placehold.it/100x100" alt="">
+                <img class="img-responsive" src="data/content-4.jpg" alt="">
                 <h4 class="list-group-item-heading">Delta baut drahtloses Internet an Bord aus</h4>
                 <p class="list-group-item-text">
                   <span class="label label-default">Destination</span> <span class="date"><i class="fa fa-calendar"></i> 24.02.2015</span>
                 </p>
               </a>
               <a href="#" class="list-group-item ">        
-                <img class="img-responsive" src="http://placehold.it/100x100" alt="">
+                <img class="img-responsive" src="data/content-5.jpg" alt="">
                 <h4 class="list-group-item-heading">Spanien: Streikserie bei Abfertiger Swissport</h4>
                 <p class="list-group-item-text">
                   <span class="label label-default">Destination</span> <span class="date"><i class="fa fa-calendar"></i> 24.02.2015</span>
@@ -843,31 +976,42 @@
         
         <div class="row">
         <div class="col-md-12">
-          <div class="widget">
+          <div class="widget office">
             <h3>Ihr Reisebüro</h3>
           <p>
             Informieren Sie sich direkt bei Ihrem Reisebüro in der Nähe
           </p>
-          <form>
-            <form class="form-inline">
-              <div class="form-group">
-                <label for="exampleInputName2">PLZ</label>
-                <input type="text" class="form-control" id="exampleInputName2" placeholder="30173">
+          <div class="input-group" role="search" id="office">
+            <input type="text" class="form-control" placeholder="PLZ"/>
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">
+                  <i class="fa fa-search"></i> Reisebüro
+                  <span class="sr-only">Search</span>
+                </button>
+              </span>
               </div>
-              <button type="submit" class="btn btn-primary">Send invitation</button>
-            </form>
+              <p>
+                Das nächste Reisebüro in Ihrer Nähe ist:
+              </p>
+              <a href="#"><h4><i class="fa fa-angle-right"></i>Hildesheim</h4></a>
             </div>
           </div>
         </div>
 
         <div class="row">
           <div class="col-md-12">
-            <div class="widget">
+            <div class="list-group widget">
               <h3>Reisetools</h3>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.
             </p>
+              <a href="#" class="list-group-item "><i class="fa fa-angle-right"></i>Länderinformation</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>checkmytrip</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>ESTA / Einreise USA</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Porta ac consectetur ac</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Auswärtiges Amt</a>
             </div>
+
           </div>
         </div>
       </div>
@@ -885,30 +1029,30 @@
   <div class="row">
       <div class="col-md-4">
         <div class="widget">
-          <!-- <h2>Entspannte Reisen. Entspannte Geschäfte.</h2> -->
+         
           <h3>Wir nehmen Service persönlich</h3>
           <p>
             FIRST Business Travel ist Ihr erfahrener Spezialist für Geschäftsreisen mit individuellem Service und maßgeschneiderten Lösungen. Wir sorgen deutschlandweit in mehr als 80 Büros, per 24h-Hotline und im Internet dafür, dass von der Buchung über die Reise bis hin zur Abrechnung für Sie alles bequem, schnell, preiswert und sicher abläuft.
           </p>
-          <p>
-            Im Verbund mit der World of TUI sowie renommierten und spezialisierten Partnern bieten wir Ihnen umfassendes Reise Know-how, attraktive Sonderkonditionen sowie Sicherheit und Zuverlässigkeit. Damit Sie sich auf das Wesentliche konzentrieren können - den Erfolg Ihrer Geschäftsreise.
-          </p>
+          <a href="#" class="btn btn-primary" role="button"><i class="fa fa-angle-right"></i> Mehr erfahren</a>
         </div>
       </div>
       <div class="col-md-4">
         <div class="widget">
-          <h3>Headline</h3>
+          <h3>FIRST Mobile Traveller</h3>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            Mit Hilfe der überarbeiteten, kostenfreien App von TouristMobile, begleitet FIRST Business Travel ihre Kunden überall hin und überwacht gebuchte Flug- und Bahnreisen minutiös. 
           </p>
+          <a href="#" class="btn btn-primary" role="button"><i class="fa fa-angle-right"></i> Mehr erfahren</a>
         </div>
       </div>
       <div class="col-md-4">
         <div class="widget">
-          <h3>Headline</h3>
+          <h3>EINS C - Das Magazin für Geschäftsreisende</h3>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            Unser Kundenmagazin "EINS C" erscheint 4mal im Jahr und richtet sich an Geschäftsreisende, Travel-Manager und Sekretärinnen speziell in mittelständischen Unternehmen.
           </p>
+          <a href="#" class="btn btn-primary" role="button"><i class="fa fa-angle-right"></i> Mehr erfahren</a>
         </div>
       </div>
 
@@ -923,7 +1067,7 @@
     <div class="row">
       <div class="col-md-3">
         <div class="widget thumbnail">
-          <img class="img-responsive" src="http://placehold.it/500x300" alt="">
+          <img class="img-responsive" src="data/thumb-1.jpg" alt="">
           <div class="caption">
             <h3> Headline</h3>
             <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
@@ -933,7 +1077,7 @@
       </div>
       <div class="col-md-3">
         <div class="widget thumbnail">
-          <img class="img-responsive" src="http://placehold.it/500x300" alt="">
+          <img class="img-responsive" src="data/thumb-2.jpg" alt="">
           <div class="caption">
             <h3> Headline</h3>
             <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
@@ -943,7 +1087,7 @@
       </div>
       <div class="col-md-3">
         <div class="widget thumbnail">
-          <img class="img-responsive" src="http://placehold.it/500x300" alt="">
+          <img class="img-responsive" src="data/thumb-3.jpg" alt="">
           <div class="caption">
             <h3> Headline</h3>
             <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
@@ -953,7 +1097,7 @@
       </div>
       <div class="col-md-3">
         <div class="widget thumbnail">
-          <img class="img-responsive" src="http://placehold.it/500x300" alt="">
+          <img class="img-responsive" src="data/thumb-4.jpg" alt="">
           <div class="caption">
             <h3> Headline</h3>
             <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
@@ -972,7 +1116,7 @@
     <div class="row">
       <div class="col-md-3">
         <div class="widget thumbnail">
-          <img class="img-responsive" src="http://placehold.it/500x300" alt="">
+          <img class="img-responsive" src="data/content-1.jpg" alt="">
           <div class="caption">
             <h3> Headline</h3>
             <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
@@ -982,7 +1126,7 @@
       </div>
       <div class="col-md-3">
         <div class="widget thumbnail">
-          <img class="img-responsive" src="http://placehold.it/500x300" alt="">
+          <img class="img-responsive" src="data/content-5.jpg" alt="">
           <div class="caption">
             <h3> Headline</h3>
             <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
@@ -992,7 +1136,7 @@
       </div>
       <div class="col-md-3">
         <div class="widget thumbnail">
-          <img class="img-responsive" src="http://placehold.it/500x300" alt="">
+          <img class="img-responsive" src="data/content-3.jpg" alt="">
           <div class="caption">
             <h3> Headline</h3>
             <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
@@ -1002,7 +1146,7 @@
       </div>
       <div class="col-md-3">
         <div class="widget thumbnail">
-          <img class="img-responsive" src="http://placehold.it/500x300" alt="">
+          <img class="img-responsive" src="data/content-4.jpg" alt="">
           <div class="caption">
             <h3> Headline</h3>
             <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
@@ -1012,49 +1156,6 @@
       </div>
     </div>
 
-  <div class="row">
-    <div class="col-md-12">
-      <form id="" class="navbar-form " role="search">
-                      <div class="search input-group" role="search" id="mySearch">
-                        <input type="search" class="form-control" placeholder="Search"/>
-                        <span class="input-group-btn">
-                          <button class="btn btn-default" type="button">
-                            <i class="fa fa-user"></i>
-                            <span class="sr-only">Search ...</span>
-                          </button>
-                        </span>
-                      </div>
-                    </form>
-</div>
-      <div class="widget">
-        <h1>Headline 1</h1>
-      <h2>Headline 2</h2>
-      <h3>Headline 3</h3>
-      <p>
-        Lorem dollor ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-      </p>
-      <blockquote class="text-center">
-      <p>I had a happy, dramafree youth, growing up in an upper-middle-class neighborhood in Dallas, Texas. The only thing that was slightly unusual compared to most of my friends was that I was an only child&#8230; I don&#8217;t think that&#8217;s why my parents gave me a dummy, at least they&#8217;ve never copped to it.</p>
-        <footer>Jeff Dunham</footer>
-    </blockquote>
-        
-      <button type="button" class="btn btn-light">Light</button>
-
-      <button type="button" class="btn btn-default">Default</button>
-
-      <button type="button" class="btn btn-primary">Primary</button>
-
-      <button type="button" class="btn btn-success">Success</button>
-
-      <button type="button" class="btn btn-info">Info</button>
-
-      <button type="button" class="btn btn-warning">Warning</button>
-
-      <button type="button" class="btn btn-danger">Danger</button>
-
-      <button type="button" class="btn btn-link">Link</button>
-      </div>
-    </div>
   </div>
 
 
@@ -1071,40 +1172,51 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3">
-            <h3>Linklist headline</h3>
-            <ul>
-              <li><i class="fa fa-angle-right"></i><a href="#" >Boostdevelopers</a></li>
-              <li><i class="fa fa-angle-right"></i><a href="#" >Company News</a></li>
-              <li><i class="fa fa-angle-right"></i><a href="#" >Support Center</a></li>
-              <li><i class="fa fa-angle-right"></i><a href="#" >Jobs</a></li>
-              <li><i class="fa fa-angle-right"></i><a href="#" >About Us</a></li>
-            </ul>
+           <div class="list-group widget">
+              <h3>Linklist Headline</h3>
+              <a href="#" class="list-group-item "><i class="fa fa-angle-right"></i>Boostdevelopers</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Company News</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Jobs</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Porta ac consectetur ac</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>About Us</a>
+            </div>
           </div>
           <div class="col-md-3">
-            <h3>Linklist headline</h3>
-            <ul>
-              <li><i class="fa fa-angle-right"></i><a href="#" >Boostdevelopers</a></li>
-              <li><i class="fa fa-angle-right"></i><a href="#" >Company News</a></li>
-              <li><i class="fa fa-angle-right"></i><a href="#" >Support Center</a></li>
-              <li><i class="fa fa-angle-right"></i><a href="#" >Jobs</a></li>
-              <li><i class="fa fa-angle-right"></i><a href="#" >About Us</a></li>
-            </ul>
+           <div class="list-group widget">
+              <h3>Linklist Headline</h3>
+              <a href="#" class="list-group-item "><i class="fa fa-angle-right"></i>Boostdevelopers</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Company News</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Jobs</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Porta ac consectetur ac</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>About Us</a>
+            </div>
           </div>
           <div class="col-md-3">
-            <h3>Linklist headline</h3>
-            <ul>
-              <li><i class="fa fa-angle-right"></i><a href="#" >Boostdevelopers</a></li>
-              <li><i class="fa fa-angle-right"></i><a href="#" >Company News</a></li>
-              <li><i class="fa fa-angle-right"></i><a href="#" >Support Center</a></li>
-              <li><i class="fa fa-angle-right"></i><a href="#" >Jobs</a></li>
-              <li><i class="fa fa-angle-right"></i><a href="#" >About Us</a></li>
-            </ul>
+            <div class="list-group widget">
+              <h3>Linklist Headline</h3>
+              <a href="#" class="list-group-item "><i class="fa fa-angle-right"></i>Boostdevelopers</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Company News</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Jobs</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Porta ac consectetur ac</a>
+              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>About Us</a>
+            </div>
           </div>
           <div class="col-md-3">
             <h3>Kontakt</h3>
             <p>
-              Kontakt Hotline
+              FIRST Business Travel <br>
+              Customer Service Center <br>
+              Barckhausstr. 10 <br>
+              60325 Frankfurt am Main <br>
             </p>
+            <p>Service Hotline: 069 76803814 </p>
+            <p>
+              Öffnungszeiten: <br>
+              Montag - Freitag 06:00-22:00 Uhr <br>
+              Samstag - Sonntag 10:00-18:00 Uhr
+            </p>
+
+            
           </div>
         </div>
       </div>

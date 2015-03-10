@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-bottom"
+			],
+			[
 				"border-",
 				"border-radius"
 			],
 			[
-				"capt",
-				"carousel-caption"
+				"border-r",
+				"border-right"
 			],
 			[
 				"border",
-				"border"
+				"border-bottom"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"capt",
+				"carousel-caption"
 			],
 			[
 				"fon",
@@ -24,20 +40,12 @@
 				"padding-left"
 			],
 			[
-				"text",
-				"text-transform"
-			],
-			[
 				"car",
 				"carousel-caption"
 			],
 			[
 				"font",
 				"font-weight"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"w",
@@ -275,7 +283,7 @@
 			"file": "fbt-index.html",
 			"settings":
 			{
-				"buffer_size": 47075,
+				"buffer_size": 64477,
 				"line_ending": "Unix"
 			}
 		},
@@ -283,7 +291,7 @@
 			"file": "css/fbt-master.css",
 			"settings":
 			{
-				"buffer_size": 7508,
+				"buffer_size": 8614,
 				"line_ending": "Unix"
 			}
 		},
@@ -291,7 +299,15 @@
 			"file": "js/master.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 647,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/bootstrap.min.js",
+			"settings":
+			{
+				"buffer_size": 35452,
 				"line_ending": "Unix"
 			}
 		}
@@ -501,6 +517,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"persö",
+			"4",
+			"sca",
+			".css",
+			".cc",
+			"beliebte",
+			"-light",
+			".css",
 			"user login",
 			"search",
 			"class=\"grid-demo\"",
@@ -620,15 +644,7 @@
 			"grid-demo",
 			".grid-demo",
 			"yamm",
-			".yamm",
-			"content",
-			"News Carousel",
-			"font-f",
-			"lead",
-			"logo",
-			"sidebar",
-			"login",
-			"carbon"
+			".yamm"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -696,15 +712,15 @@
 					"file": "fbt-index.html",
 					"settings":
 					{
-						"buffer_size": 47075,
+						"buffer_size": 64477,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								45774,
-								45774
+								3225,
+								3225
 							]
 						],
 						"settings":
@@ -714,7 +730,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 13826.0,
+						"translation.y": 521.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -730,15 +746,15 @@
 					"file": "css/fbt-master.css",
 					"settings":
 					{
-						"buffer_size": 7508,
+						"buffer_size": 8614,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5893,
-								5893
+								6122,
+								6122
 							]
 						],
 						"settings":
@@ -747,7 +763,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5558.0,
+						"translation.y": 5496.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -757,15 +773,15 @@
 					"file": "js/master.js",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 647,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								436,
+								436
 							]
 						],
 						"settings":
@@ -773,6 +789,32 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/bootstrap.min.js",
+					"settings":
+					{
+						"buffer_size": 35452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35452,
+								35452
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 19703.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
