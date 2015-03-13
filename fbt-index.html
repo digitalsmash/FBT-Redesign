@@ -393,7 +393,7 @@
 
       <div class="carousel slide article-slide" id="myCarousel">
 
-        <div class="carousel-inner cont-slider">
+        <div class="carousel-inner cont-slider hidden-xs">
           <div class="item active">
             <img class="img-responsive" src="http://cdn.icelandair.com/servlet/file/store36/item756002/version2/skogafoss-front.jpg">
             <div class="carousel-caption">
@@ -437,16 +437,27 @@
           <div id="ibeForm" class="col-md-4" role="tabpanel">
             <ul class="nav nav-tabs nav-justified" role="tablist">
               <li role="presentation" class="active">
-                <a href="#home" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-plane"></i> Flug</a>
+                <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+                  <i class="fa fa-plane"></i> <span class="hidden-xs">Flug</span>
+                </a>
               </li>
               <li role="presentation">
-                <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-bed"></i> Hotel</a>
+                <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+                  <i class="fa fa-bed"></i>
+                  <span class="hidden-xs"> Hotel </span>
+                </a>
               </li>
               <li role="presentation">
-                <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-train"></i> Bahn</a>
+                <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+                  <i class="fa fa-train"></i>
+                   <span class="hidden-xs"> Bahn</span>
+                 </a>
               </li>
               <li role="presentation">
-                <a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><i class="fa fa-car"></i> Mietwagen</a>
+                <a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
+                  <i class="fa fa-car"></i>
+                  <span class="hidden-xs"> Mietwagen</span>
+                   </a>
               </li>
             </ul>
 
@@ -456,7 +467,7 @@
 
                 <form>
                   <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-xs-6">
                       <div class="radio checked" data-initialize="radio" id="Radio1">
                         <label class="radio-custom">
                           <input class="sr-only" checked="checked"  name="radioEx1" type="radio" value="option1">
@@ -464,7 +475,7 @@
                         </label>
                       </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-xs-6">
                       <div class="radio" data-initialize="radio" id="Radio2">
                         <label class="radio-custom">
                           <input class="sr-only" name="radioEx1" type="radio" value="option2">
@@ -567,7 +578,7 @@
                   </div> <!-- PASSANGER ENDE-->
                   
                   <div class="row"> <!-- ROW HOTEL -->
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-md-offset-0 col-xs-3 col-xs-offset-3">
                       <div class="row">
                         <div class="col-md-6">
                           <div class="checkbox">
@@ -576,7 +587,7 @@
                             </label>
                           </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 ">
                           <div class="checkbox">
                             <label>
                               <input type="checkbox"> Mietwagen
@@ -586,7 +597,7 @@
                       </div>
                       
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-md-offset-0 col-xs-6 col-xs-offset-3">
                       <div class="checkbox">
                         <label>
                           <input type="checkbox"> Direktflug
@@ -595,7 +606,7 @@
                     </div>
                   </div><!-- Hotel ENDE -->
                   <div class="row">
-                    <div class="col-md-offset-6 col-md-6">
+                    <div class="col-md-6">
                        <button type="submit" class="btn btn-primary btn-block">Suchen</button>
                     </div>
                   </div>
@@ -627,7 +638,7 @@
           </div>
         </div>
          <!-- Controls -->
-         <div class="carousel-control-wrapper">
+         <div class="carousel-control-wrapper hidden-xs">
           <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
@@ -946,7 +957,7 @@
     <div class="footer-content">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 hidden-xs">
            <div class="list-group widget">
               <h3>Linklist Headline</h3>
               <a href="#" class="list-group-item "><i class="fa fa-angle-right"></i>Boostdevelopers</a>
@@ -956,7 +967,7 @@
               <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>About Us</a>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 hidden-xs">
            <div class="list-group widget">
               <h3>Linklist Headline</h3>
               <a href="#" class="list-group-item "><i class="fa fa-angle-right"></i>Boostdevelopers</a>
@@ -985,19 +996,21 @@
             </div>
           </div>
           <div class="col-md-3">
-            <h3>Kontakt</h3>
-            <p>
-              FIRST Business Travel <br>
-              Customer Service Center <br>
-              Barckhausstr. 10 <br>
-              60325 Frankfurt am Main <br>
-            </p>
-            <p><strong>Service Hotline: 069 76803814</strong></p>
-            <p>
-              Öffnungszeiten: <br>
-              Montag - Freitag 06:00-22:00 Uhr <br>
-              Samstag - Sonntag 10:00-18:00 Uhr
-            </p>
+            <div class="list-group widget">
+              <h3>Kontakt</h3>
+              <p>
+                FIRST Business Travel <br>
+                Customer Service Center <br>
+                Barckhausstr. 10 <br>
+                60325 Frankfurt am Main <br>
+              </p>
+              <p><strong>Service Hotline: 069 76803814</strong></p>
+              <p>
+                Öffnungszeiten: <br>
+                Montag - Freitag 06:00-22:00 Uhr <br>
+                Samstag - Sonntag 10:00-18:00 Uhr
+              </p>
+            </div>
 
             
           </div>
@@ -1007,10 +1020,10 @@
     <div class="footer-bottom">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 col-xs-8">
             <img class="img-responsive logo-group" src="img/tuigroup@2x.png">
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-xs-4">
             <img class="img-responsive tuev pull-right" src="data/tuev.jpg">
             
           </div>

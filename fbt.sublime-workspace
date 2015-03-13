@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"Im",
+				"important"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
 				"margin",
 				"margin-bottom"
 			],
@@ -14,10 +38,6 @@
 			[
 				"border-r",
 				"border-right"
-			],
-			[
-				"border",
-				"border-bottom"
 			],
 			[
 				"paddi",
@@ -34,10 +54,6 @@
 			[
 				"fon",
 				"font-size"
-			],
-			[
-				"padding",
-				"padding-left"
 			],
 			[
 				"car",
@@ -124,10 +140,6 @@
 				"important"
 			],
 			[
-				"op",
-				"option	Tag"
-			],
-			[
 				"pane",
 				"panel-default"
 			],
@@ -178,10 +190,6 @@
 			[
 				"inl",
 				"inline-block"
-			],
-			[
-				"text-",
-				"text-align"
 			],
 			[
 				"di",
@@ -283,7 +291,7 @@
 			"file": "fbt-index.html",
 			"settings":
 			{
-				"buffer_size": 64477,
+				"buffer_size": 50942,
 				"line_ending": "Unix"
 			}
 		},
@@ -291,7 +299,7 @@
 			"file": "css/fbt-master.css",
 			"settings":
 			{
-				"buffer_size": 8614,
+				"buffer_size": 9951,
 				"line_ending": "Unix"
 			}
 		},
@@ -299,7 +307,7 @@
 			"file": "js/master.js",
 			"settings":
 			{
-				"buffer_size": 647,
+				"buffer_size": 575,
 				"line_ending": "Unix"
 			}
 		},
@@ -372,6 +380,7 @@
 	},
 	"file_history":
 	[
+		"/Projekte/TUI/FBT/www/data/bootstrap.min.js",
 		"/Workflow/Code/ExpandingSearchBar/index.html",
 		"/Workflow/Code/ExpandingSearchBar/css/default.css",
 		"/Workflow/Code/ExpandingSearchBar/css/component.css",
@@ -498,8 +507,7 @@
 		"/Users/peterbenyei/Library/Application Support/Sublime Text 2/Packages/FTPSync/FTPSync.sublime-settings",
 		"/Users/peterbenyei/Work/TUI/TUI-discover/www/ftpsync.settings-back",
 		"/Users/peterbenyei/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/peterbenyei/Work/TUI/TUI-discover/www/css/master.css",
-		"/Users/peterbenyei/Desktop/index.html"
+		"/Users/peterbenyei/Work/TUI/TUI-discover/www/css/master.css"
 	],
 	"find":
 	{
@@ -517,6 +525,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"datepicker2",
+			"zweiter reise",
+			"min.",
+			"content",
+			"sc",
+			"bs-example",
+			"sca",
 			"persö",
 			"4",
 			"sca",
@@ -637,14 +652,7 @@
 			"fa fa-user",
 			"main",
 			"divider",
-			"font",
-			"content",
-			"grid-mega",
-			"gird-demo",
-			"grid-demo",
-			".grid-demo",
-			"yamm",
-			".yamm"
+			"font"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -652,6 +660,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"modal-login",
 			"class=\"\"",
 			"<li><a ",
 			"<span class=\"caret\"></span>",
@@ -712,15 +721,15 @@
 					"file": "fbt-index.html",
 					"settings":
 					{
-						"buffer_size": 64477,
+						"buffer_size": 50942,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3225,
-								3225
+								886,
+								886
 							]
 						],
 						"settings":
@@ -730,7 +739,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 521.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -738,7 +747,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -746,15 +755,15 @@
 					"file": "css/fbt-master.css",
 					"settings":
 					{
-						"buffer_size": 8614,
+						"buffer_size": 9951,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6122,
-								6122
+								4325,
+								4327
 							]
 						],
 						"settings":
@@ -763,7 +772,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5496.0,
+						"translation.y": 3548.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -773,22 +782,22 @@
 					"file": "js/master.js",
 					"settings":
 					{
-						"buffer_size": 647,
+						"buffer_size": 575,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								436,
-								436
+								151,
+								151
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": 0.0,
+						"translation.x": 187.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},

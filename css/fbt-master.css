@@ -671,3 +671,79 @@ img.tuev {
 	width: 60px;
 }
 
+@media only screen and (max-width : 480px) {
+
+	.subnav button.navbar-toggle {
+		display: none;
+	}
+
+	.subnav .navbar-collapse.collapse {
+		display: block!important;
+	}
+
+	.subnav .navbar-nav>li, .navbar-nav {
+		float: left !important;
+	}
+
+	.subnav .navbar-nav.navbar-right:last-child {
+		margin-right: -15px !important;
+	}
+
+	.subnav .navbar-right {
+		float: right!important;
+	}
+
+	.mainnav button.navbar-toggle {
+		background-color: red;
+	}
+
+	#ibeForm {
+  		position: relative;
+  		margin-bottom: 20px;
+  		padding: 0;
+	}
+
+	#ibeForm .nav-tabs.nav-justified > li {
+	  display: table-cell;
+	  width: 75px;
+	}
+
+	#ibeForm .nav-tabs>li>a {
+		font-size: 20px;
+	}
+
+	#ibeForm .nav-tabs>li.active>a, #ibeForm .nav-tabs>li.active>a:focus, #ibeForm .nav-tabs>li.active>a:hover{
+		font-size: 20px;
+	}
+
+	#ibeForm label {
+		display: block;
+	}
+
+	#classSelectlist button.class {
+  		width: 221px;
+	}
+	.widget, .widget.thumbnail, .widget.office {
+		margin-bottom: 20px;
+	}
+
+	.footer-social{
+		text-align: left;
+	}
+
+	.footer-content .list-group.widget{
+		padding: 0;
+		padding-bottom: 10px;
+	}
+
+	.footer-bottom{
+		border-top: 1px solid #e3e3e3;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+
+}
+
+
+
