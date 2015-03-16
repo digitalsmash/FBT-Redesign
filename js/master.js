@@ -6,8 +6,10 @@ $(document).on('click', '.mega .dropdown-menu', function(e) {
 
 $(document).ready(function(){
 
-$("#search").focus(function(){$(this).animate({width:"100%"})}).blur(function(){$(this).animate({width:"80px"})});
-
+if(document.body.scrollWidth>480){
+	$("#search").focus(function(){$(this).animate({width:"100%"})}).blur(function(){$(this).animate({width:"80px"})});
+}
+    
 $(function () {
       $('#datetimepicker1').datetimepicker({
         locale: 'de',

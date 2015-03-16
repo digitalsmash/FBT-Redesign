@@ -170,6 +170,10 @@ a.navbar-brand{
 	color: #004494;
 }
 
+.mainnav li.nav-grid ul>li>a:hover{
+     text-decoration: none;   
+}
+
 .mainnav li.nav-grid ul>li>a>p{
 	color: #555;
 	font-size: 12px;
@@ -192,12 +196,20 @@ a.navbar-brand{
 
 .mainnav li.nav-grid ul.third>li {
 	border-bottom: 1px solid #ccc;
-	padding-top: 10px;
+	padding: 15px 10px;
+}
+
+.mainnav li.nav-grid ul.third>li:hover {
+	border-bottom: 1px solid #004494;
 }
 
 .mainnav li.nav-grid ul.third>li>a {
-	padding-left: 15px;
 	font-size: 12px;
+    display: block;
+}
+
+.mainnav li.nav-grid ul.third>li>a:hover {
+    text-decoration: none;
 }
 
 .mainnav li.nav-grid ul.third>li:last-child{
@@ -614,8 +626,6 @@ span.date{
 }
 
 
-
-
 /*Footer*/
 
 footer.page{
@@ -692,11 +702,50 @@ img.tuev {
 	.subnav .navbar-right {
 		float: right!important;
 	}
+    
+    .subnav ul.nav.navbar-nav.navbar-right {
+        float: left !important;
+    }
+    
+    .subnav .navbar-nav > li{
+        margin-right: 5px;
+    }
+    
+    .subnav .navbar-form {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    
+/*
+    .subnav .btn-default, .btn-primary {
+        padding: 5px 10px;
+        font-size: 12px;
+        line-height: 1.5;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+*/
+    
+    #search{
+        width: 100%;
+    }
 
 	.mainnav button.navbar-toggle {
-		background-color: red;
-	}
-
+		background-color: #333;
+        color: white;
+        border-radius: 2px;
+        margin-right: 0;
+        padding:6px 12px;
+        position: absolute;
+        right: 0;
+        top: -58px;   
+    }
+    
+    .col-md-12.mainnav, .navbar {
+        min-height: 0;
+    }
+    
 	#ibeForm {
   		position: relative;
   		margin-bottom: 20px;
