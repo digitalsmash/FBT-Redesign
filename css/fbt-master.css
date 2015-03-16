@@ -691,9 +691,13 @@ img.tuev {
 		display: block!important;
 	}
 
-	.subnav .navbar-nav>li, .navbar-nav {
+	.navbar-nav, .subnav .navbar-nav>li {
 		float: left !important;
 	}
+    
+    .mainnav ul.nav.navbar-nav.pull-right{
+        float: none !important;
+    }
 
 	.subnav .navbar-nav.navbar-right:last-child {
 		margin-right: -15px !important;
