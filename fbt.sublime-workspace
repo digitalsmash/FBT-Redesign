@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"d",
+				"display"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
 				"text-",
 				"text-decoration"
 			],
@@ -42,10 +54,6 @@
 			[
 				"paddi",
 				"padding-bottom"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"capt",
@@ -256,10 +264,6 @@
 				"dropdown-menu"
 			],
 			[
-				"d",
-				"dropdown-toggle"
-			],
-			[
 				"bootstrap",
 				"bootstrap-select"
 			],
@@ -291,7 +295,7 @@
 			"file": "fbt-index.html",
 			"settings":
 			{
-				"buffer_size": 50942,
+				"buffer_size": 51505,
 				"line_ending": "Unix"
 			}
 		},
@@ -299,7 +303,7 @@
 			"file": "css/fbt-master.css",
 			"settings":
 			{
-				"buffer_size": 9951,
+				"buffer_size": 11130,
 				"line_ending": "Unix"
 			}
 		},
@@ -525,6 +529,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mietwagen",
 			"datepicker2",
 			"zweiter reise",
 			"min.",
@@ -651,8 +656,7 @@
 			"user",
 			"fa fa-user",
 			"main",
-			"divider",
-			"font"
+			"divider"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -721,15 +725,15 @@
 					"file": "fbt-index.html",
 					"settings":
 					{
-						"buffer_size": 50942,
+						"buffer_size": 51505,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								886,
-								886
+								1977,
+								1977
 							]
 						],
 						"settings":
@@ -747,7 +751,7 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -755,15 +759,15 @@
 					"file": "css/fbt-master.css",
 					"settings":
 					{
-						"buffer_size": 9951,
+						"buffer_size": 11130,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4325,
-								4327
+								11118,
+								11118
 							]
 						],
 						"settings":
@@ -772,7 +776,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3548.0,
+						"translation.y": 10492.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -795,9 +799,11 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 187.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},

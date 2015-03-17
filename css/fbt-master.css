@@ -281,7 +281,7 @@ a.navbar-brand{
 	padding: 10px;
 	border-top: 1px solid #ebebeb;
   	border-left: 1px solid #ebebeb;
- 	/*background: url("http://www.lufthansa.com/layout/r656/static_rd/img/hp_2010/stage/stage_layer_1000-80.png")*/
+    z-index: 0;
 }
 
 .carousel-caption h3{
@@ -294,17 +294,45 @@ a.navbar-brand{
 	font-size: 16px;
 }
 
-/*Panel Login*/
+/*Modal Login*/
+
+@media (min-width: 768px){
+    .modal-dialog {
+      width: 340px;
+      margin: 30px auto;
+    }
+}
+
+.modal-content {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.modal-content >.container-fluid {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.modal-body > .tab-content{
+    padding: 0;
+}
+
+
+
+.modal-body, .modal-footer {
+    background: white;
+   
+}
 
 .modal-login .nav-tabs>li>a {
 	margin-right: 2px;
 	line-height: 1.42857143;
 	border: 1px solid transparent;
-	border-radius: 4px 4px 0 0;
-	/*background: white;*/
-	background: #ececec;
+	border-radius: 2px 2px 0 0;
+    background: rgba(251, 251, 251, 0.8);
 	color: #333;
-	border-radius: 2px;
+	border-bottom: 0;
 }
 
 .modal-login .nav-tabs > li.active > a,
@@ -491,6 +519,7 @@ strong{
 
 .office a>h4{
 	color: #333;
+    text-decoration: underline;
 }
 
 .widget a.list-group-item {
@@ -697,6 +726,8 @@ img.tuev {
     
     .mainnav ul.nav.navbar-nav.pull-right{
         float: none !important;
+        width: 100%;
+        margin: 0;
     }
 
 	.subnav .navbar-nav.navbar-right:last-child {
@@ -712,7 +743,7 @@ img.tuev {
     }
     
     .subnav .navbar-nav > li{
-        margin-right: 5px;
+        margin-right: 4px;
     }
     
     .subnav .navbar-form {
@@ -720,16 +751,6 @@ img.tuev {
         padding-bottom: 0;
         padding-top: 0;
     }
-    
-/*
-    .subnav .btn-default, .btn-primary {
-        padding: 5px 10px;
-        font-size: 12px;
-        line-height: 1.5;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-*/
     
     #search{
         width: 100%;
@@ -746,10 +767,62 @@ img.tuev {
         top: -58px;   
     }
     
+
     .col-md-12.mainnav, .navbar {
         min-height: 0;
+        padding: 0;
     }
     
+    .mainnav li.dropdown.mega-fw {
+        margin: 0px;   
+    }
+    
+    .mega .dropdown.mega-fw .dropdown-menu{
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc; 
+    }
+    
+    .mainnav li.nav-grid ul>li {
+        padding: 0;
+    }
+    
+    .mainnav li.nav-grid ul>li>a {
+        display: block;
+        padding: 15px;
+        border-top: 1px solid;
+    }
+    
+    .mainnav .nav>li>a:hover {
+      border: none;
+      color: #333;
+    }
+    
+    .mainnav li.nav-grid ul.third>li {
+        padding: 5px 10px;
+    }
+    
+    .mainnav li.nav-grid ul.third>li>a {
+         border: none;   
+    }
+    
+    .mainnav li.nav-grid ul>li:last-child>a>p{
+        margin:0;
+        padding-bottom: 0;
+    }
+    
+    .modal-dialog {
+        margin: 5px 0;
+    }
+    
+    #login-tab.nav-tabs.nav-justified > li{
+         display: table-cell;
+    }
+    
+    .modal-login .nav-tabs>li>a{
+        margin-bottom: 0;
+    }
+
+       
 	#ibeForm {
   		position: relative;
   		margin-bottom: 20px;
@@ -765,7 +838,8 @@ img.tuev {
 		font-size: 20px;
 	}
 
-	#ibeForm .nav-tabs>li.active>a, #ibeForm .nav-tabs>li.active>a:focus, #ibeForm .nav-tabs>li.active>a:hover{
+	#ibeForm .nav-tabs>li.active>a, #ibeForm .nav-tabs>li.active>a:focus,
+    #ibeForm .nav-tabs>li.active>a:hover{
 		font-size: 20px;
 	}
 
