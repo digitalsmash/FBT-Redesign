@@ -6,7 +6,7 @@ $(document).on('click', '.mega .dropdown-menu', function(e) {
 
 $(document).ready(function(){
 
-if(document.body.scrollWidth>480){
+if(document.body.scrollWidth>769){
 	$("#search").focus(function(){$(this).animate({width:"100%"})}).blur(function(){$(this).animate({width:"80px"})});
 }
     

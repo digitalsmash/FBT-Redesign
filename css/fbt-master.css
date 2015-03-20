@@ -277,7 +277,7 @@ a.navbar-brand{
 	text-shadow: none;
 	/*text-shadow: 0 2px 2px rgba(0,0,0,.6);*/
 	/* text-shadow: -1px 1px 0 rgba(0,0,0,0.2); */
-	background: rgba(251, 251, 251, 0.7);
+	background: rgba(251, 251, 251, 0.8);
 	padding: 10px;
 	border-top: 1px solid #ebebeb;
   	border-left: 1px solid #ebebeb;
@@ -361,13 +361,13 @@ a.navbar-brand{
 	border-bottom-color: transparent;
 	font-size: 18px;
 	font-weight: 600;
+    top: 1px;
 }
 
 #ibeForm .nav-tabs>li>a {
 	margin-right: 2px;
 	line-height: 1.42857143;
 	border: 1px solid transparent;
-	border-radius: 4px 4px 0 0;
 	/*background: white;*/
 	background: rgba(251, 251, 251, 0.6);
 	color: #333;
@@ -378,9 +378,10 @@ a.navbar-brand{
 	top: 20px;
 }
 
-.tab-content{
+#ibeForm .tab-content{
 	background-color: #fff;
 	padding: 15px;
+    border: 1px solid #ddd;
 }
 
 #ibeForm  form > .row{
@@ -399,8 +400,12 @@ a.navbar-brand{
 }
 
 #classSelectlist button.class{
-	width: 147px;
+	width: 146px;
 	text-align: left;
+}
+
+.fuelux .selectlist .btn.dropdown-toggle {
+  padding: 6px 18px;
 }
 
 .fuelux .selectlist .dropdown-menu {
@@ -408,9 +413,6 @@ a.navbar-brand{
   	width: 100%;
 }
 
-.fuelux .selectlist .btn.dropdown-toggle{
-	padding: 6px 15px;
-}
 
 /*Modals*/
 .modal-backdrop {
@@ -438,8 +440,12 @@ strong{
 	color: #004494;
 }
 
-.btn, .form-control{
-	border-radius: 2px;
+.btn, .form-control,
+.input-group-addon,
+.nav-tabs>li>a,
+.nav-tabs.nav-justified > li > a
+{
+	border-radius: 0px;
 }
 
 .carousel-caption .btn > i{
@@ -561,11 +567,19 @@ p.top{
 }
 
 
+.nav-tabs.nav-justified > li:last-child a{
+    margin-right: 0 !important;
+}
+
 /*SEARCH BOX*/
 
 #search {
 	width: 70px;
 	float: right;
+}
+
+.navbar-form {
+    padding-right: 0;
 }
 
 /*Content*/
@@ -710,6 +724,141 @@ img.tuev {
 	width: 60px;
 }
 
+/*Tablet Landscape*/
+@media (min-width: 768px) and (max-width: 1024px){
+    
+    .mainnav .navbar-nav > li > a{
+      padding: 15px 21px 15px 21px;      
+    }
+    
+    .mainnav .nav>li>a:focus,
+    .mainnav .nav>li>a:hover,
+    .mainnav .nav .open>a,
+    .mainnav .nav .open>a:focus,
+    .mainnav .nav .open>a:hover
+    {
+        padding: 13px 20px 15px 20px;  
+    }
+    
+    .carousel-caption {
+         right: 90px;
+     }
+    
+    .carousel-control {
+      width: 5%;
+    }
+    
+    #ibeForm {
+        width: 39%;
+    }
+    
+    #ibeForm label {
+        font-size: 11px;
+    }
+    
+    #ibeForm .tab-content {
+        padding-bottom: 5px;
+    }
+    
+    #classSelectlist button.class {
+        width: 108px;
+    }
+    
+    #myCarousel .carousel-indicators{
+         right: 85px;   
+    }
+}
+
+
+/*Tablet*/
+ @media only screen and (max-width : 768px) {
+    
+     a.logo img{
+         padding-top: 10px;
+         margin-top: 10px;
+     }
+     
+     #search{
+        width: 130px;
+    }
+     
+     .mainnav .nav.navbar-nav.pull-right {
+          float: left !important;   
+     }
+     
+     #navbar-main {
+         margin-top: 15px;
+     }
+     
+     .subnav {
+         margin-top: 10px;
+           z-index: 10000;
+     }
+     
+     .mainnav .navbar-nav > li > a{
+          padding: 15px 29px 15px 29px;   
+     }
+     
+     .mainnav .nav>li>a:focus,
+     .mainnav .nav>li>a:hover,
+     .mainnav .nav .open>a,
+     .mainnav .nav .open>a:focus,
+     .mainnav .nav .open>a:hover{
+         padding: 13px 28px 15px 28px;       
+     }
+     
+     #myCarousel > .container {
+         padding-left: 5px;
+     }
+     
+     #myCarousel > img.tablet-bg{
+         position: absolute;
+         width: 768px;
+         height: 566px;
+     }
+     #myCarousel {
+        width: 100%;
+        height: 566px;
+        background: url('../img/tablet-bg.jpg') no-repeat;
+        margin: 0;
+        padding: 0;
+     }
+         
+     #ibeForm {
+        position: relative;
+        top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0;
+        left: 0;
+        padding-left: 0;
+        padding-right: 0;
+         width: 66.66666667%;
+    }
+     
+     #ibeForm .tab-content {
+         border: 1px solid #ddd;
+     }
+     
+     #ibeForm label {
+         font-size: 14px;
+     }
+     
+     #ibeForm .nav-tabs>li.active{
+         top: -1px;
+     }
+     
+     #classSelectlist button.class {
+      width: 166px;
+     }
+     
+   .content [class*='col-'] {
+      padding-right: 7px;
+      padding-left: 7px;
+    }
+     
+}
+
+/*Phone*/
 @media only screen and (max-width : 480px) {
 
 	.subnav button.navbar-toggle {
@@ -848,7 +997,7 @@ img.tuev {
 	}
 
 	#classSelectlist button.class {
-  		width: 221px;
+  		width: 214px;
 	}
 	.widget, .widget.thumbnail, .widget.office {
 		margin-bottom: 20px;
