@@ -1,0 +1,37 @@
+.title {
+    background: #004494;
+}
+
+.breadcrumb{
+    background: none;
+    border: none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.breadcrumb > li > a{
+    color: #fff;
+}
+
+.breadcrumb > .active{
+    color: #ccc;
+}
+
+/*Article*/
+article{
+    padding: 0;
+}
+
+article h1 {
+   margin-top: 0;
+}
+
+article h2{
+    margin-bottom: 0;
+}
+
+article p{
+    padding-top: 10px;
+}
+
+article ul>li>

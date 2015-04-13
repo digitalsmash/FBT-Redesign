@@ -443,7 +443,8 @@ strong{
 .btn, .form-control,
 .input-group-addon,
 .nav-tabs>li>a,
-.nav-tabs.nav-justified > li > a
+.nav-tabs.nav-justified > li > a,
+.breadcrumb
 {
 	border-radius: 0px;
 }
@@ -625,6 +626,10 @@ p.top{
 	border:0;
 }
 
+.widget.thumbnail h3 {
+    font-size: 18px;
+}
+
 
 .news.list-group .list-group-item{
 	border: none;
@@ -724,6 +729,7 @@ img.tuev {
 	width: 60px;
 }
 
+
 /*Tablet Landscape*/
 @media (min-width: 768px) and (max-width: 1024px){
     
@@ -792,7 +798,7 @@ img.tuev {
      
      .subnav {
          margin-top: 10px;
-           z-index: 10000;
+           z-index: 1000;
      }
      
      .mainnav .navbar-nav > li > a{
@@ -809,6 +815,7 @@ img.tuev {
      
      #myCarousel > .container {
          padding-left: 5px;
+         padding-right: 5px;
      }
      
      #myCarousel > img.tablet-bg{
@@ -854,6 +861,10 @@ img.tuev {
    .content [class*='col-'] {
       padding-right: 7px;
       padding-left: 7px;
+    }
+     
+     .widget.thumbnail {
+          margin-bottom: 15px;
     }
      
 }
@@ -913,7 +924,8 @@ img.tuev {
         padding:6px 12px;
         position: absolute;
         right: 0;
-        top: -58px;   
+        top: -58px;
+        z-index: 1500;
     }
     
 
@@ -970,17 +982,23 @@ img.tuev {
     .modal-login .nav-tabs>li>a{
         margin-bottom: 0;
     }
-
+    
+    #myCarousel {
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
        
 	#ibeForm {
   		position: relative;
   		margin-bottom: 20px;
   		padding: 0;
+        width: auto;
 	}
 
 	#ibeForm .nav-tabs.nav-justified > li {
 	  display: table-cell;
-	  width: 75px;
+	  width: 78px;
 	}
 
 	#ibeForm .nav-tabs>li>a {
@@ -997,7 +1015,7 @@ img.tuev {
 	}
 
 	#classSelectlist button.class {
-  		width: 214px;
+  		width: 232px;
 	}
 	.widget, .widget.thumbnail, .widget.office {
 		margin-bottom: 20px;
