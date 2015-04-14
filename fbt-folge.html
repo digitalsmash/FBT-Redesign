@@ -398,9 +398,9 @@
 </div>
 </header>
 
-    <div class="title container-fluid">
-       <div class="container">
-        <div class="row">
+    
+  <div class="content container">
+  <div class="row">
         <div class="col-md-12">
             <ol class="breadcrumb">
             <li><a href="#">Home</a></li>
@@ -409,9 +409,6 @@
         </ol>
         </div>
     </div>
-    </div>
-    </div>
-  <div class="content container">
 
   <!-- Modal -->
 <div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -475,8 +472,8 @@
     
      <div class="row">
       <div class="col-md-8 col-sm-8">
-      <article>
-        <div class="row">
+      <article class="widget">
+       
          <h1>FIRST® Mobile Traveller - Ihr mobiler Reiseplan</h1>
          <img src="data/content-2.jpg" class="img-responsive" alt="">
           <p>
@@ -502,7 +499,7 @@
               <li><a href="">Lorem ipsum dolor sit ame</a></li>
               <li><a href="">Lorem ipsum dolor sit ame</a></li>
           </ul>
-           </div>
+           
        </article>
       </div>
       <!--Side Menu -->
@@ -510,30 +507,8 @@
         
         <div class="row">
         <div class="col-md-12">
-          <div class="widget office">
-            <h3>Ihr Reisebüro</h3>
-          <p>
-            Informieren Sie sich direkt bei Ihrem Reisebüro in der Nähe
-          </p>
-          <div class="input-group" role="search" id="office">
-            <input type="text" class="form-control" placeholder="PLZ"/>
-              <span class="input-group-btn">
-                <button class="btn btn-default" type="button">
-                  <i class="fa fa-search"></i> <span class="hidden-sm">Reisebüro</span>
-                  <span class="sr-only">Search</span>
-                </button>
-              </span>
-              </div>
-              <p>
-                Das nächste Reisebüro in Ihrer Nähe ist:
-              </p>
-              <a href="#"><h4><i class="fa fa-angle-right"></i><span>Hildesheim</h4></a>
-            </div>
-          </div>
-        
-          <div class="col-md-12">
-            <div class="list-group widget">
-              <h3>Reisetools</h3>
+            <div class="widget">
+            <h3>News Kategorien</h3>
             <p>
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.
             </p>
@@ -543,8 +518,69 @@
               <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Porta ac consectetur ac</a>
               <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Auswärtiges Amt</a>
             </div>
+        </div>
+        
+          <div class="col-md-12">
+            <!--            Accordion-->
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+             
+              
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <h4 class="panel-title">Ihr Reisebüro</h4>
+                </a>
+              
+              
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">
+                  <p>
+                    Informieren Sie sich direkt bei Ihrem Reisebüro in der Nähe
+                  </p>
+                  <div class="input-group" role="search" id="office">
+                    <input type="text" class="form-control" placeholder="PLZ"/>
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">
+                          <i class="fa fa-search"></i> <span class="hidden-sm">Reisebüro</span>
+                          <span class="sr-only">Search</span>
+                        </button>
+                      </span>
+                  </div>
+                  <p>
+                    Das nächste Reisebüro in Ihrer Nähe ist:
+                  </p>
+                  <a href="#"><h4><i class="fa fa-angle-right"></i><span>Hildesheim</h4></a>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  <h4 class="panel-title">Reisetools</h4>
+                </a>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
+                  <h3>Reisetools</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.
+                </p>
+                  <a href="#" class="list-group-item "><i class="fa fa-angle-right"></i>Länderinformation</a>
+                  <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>checkmytrip</a>
+                  <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>ESTA / Einreise USA</a>
+                  <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Porta ac consectetur ac</a>
+                  <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Auswärtiges Amt</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+<!--        Accordion ENDE-->
           </div>
         </div>
+        
+
       </div>
     </div>
   </div>
