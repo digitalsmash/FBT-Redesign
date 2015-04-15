@@ -412,6 +412,7 @@ a.navbar-brand{
 
 
 /*Modals*/
+/*
 .modal-backdrop {
 	z-index: 0;
 }
@@ -423,10 +424,20 @@ a.navbar-brand{
 .modal-content {
 	border-radius: 2px;
 }
+*/
 
 
 
 /*Scaffholding*/
+
+a:focus {
+    color: #004494;   
+}
+
+.list-group-item > .badge {
+  color: #333;
+  background-color: #f5f5f5;
+}
 
 .modal-content .btn > i{
 	margin-right: 5px;
@@ -441,7 +452,8 @@ strong{
 .input-group-addon,
 .nav-tabs>li>a,
 .nav-tabs.nav-justified > li > a,
-.breadcrumb
+.breadcrumb,
+.badge
 {
 	border-radius: 0px;
 }
@@ -500,6 +512,12 @@ strong{
 	color: #333;
 }
 
+.btn-load{
+	background-color: #f5f5f5;
+	border-color: #ccc;
+	color: #004494;
+}
+
 .content .btn-light:hover{
 	color: #004494;
 }
@@ -511,12 +529,16 @@ strong{
 	font-size: 80%;
 }
 
+/*Scaffholding ENDE*/
+
 #office {
 	padding-bottom: 10px;
 }
 
 .office h4>i,
-.widget a.list-group-item > i
+.widget a.list-group-item > i,
+.panel-body a.list-group-item > i,
+.panel-body h4>i
 {
 	margin-right: 10px;
 }
@@ -526,7 +548,9 @@ strong{
     text-decoration: underline;
 }
 
-.widget a.list-group-item {
+.widget a.list-group-item,
+.panel-body a.list-group-item
+{
 	margin-bottom: 0px;
 	border-left: none;
 	border-right: none;
@@ -536,22 +560,32 @@ strong{
 	padding-left: 0;
 }
 
-.widget a.list-group-item:last-child {
+.widget a.list-group-item:last-child,
+.panel-body a.list-group-item:last-child
+{
 	border-radius: 0;
 	border-bottom: 1px solid #fff;
     padding-bottom: 0;
 }
 
-.widget a.list-group-item:hover {
+.widget a.list-group-item:hover,
+.panel-body a.list-group-item:hover
+{
 	background-color: transparent;
 	color:#004494;
 	border-color: #004494;
 }
 
-.widget a.list-group-item:last-child:hover {
+.widget a.list-group-item:last-child:hover,
+.panel-body a.list-group-item:last-child:hover
+{
 	border-radius: 0;
 	border-bottom: none;
-    padding-bottom: 1px;
+   
+}
+
+.side .widget a.list-group-item:last-child:hover{
+     padding-bottom: 1px;
 }
 
 .footer-content p, address {
@@ -971,7 +1005,7 @@ img.tuev {
     }
     
     .modal-dialog {
-        margin: 5px 0;
+        margin:70px 5px 0 5px;
     }
     
     #login-tab.nav-tabs.nav-justified > li{
