@@ -32,4 +32,34 @@ article p{
     padding-top: 10px;
 }
 
-article ul>li>
+/*Accordion*/
+
+.panel-default > .panel-heading {
+    padding: 0;
+}
+
+a>h4.panel-title {
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.panel-heading > a > h4:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  
+    content: "\e258";    
+    float: right;        
+    color: #004494 ;        
+    overflow: no-display;
+    font-size: 10px;
+}
+.panel-heading > a.collapsed > h4:after {
+    /* symbol for "collapsed" panels */
+    font-family: 'Glyphicons Halflings';  
+    content: "\e259";    
+    float: right;        
+    color: #004494 ;        
+    overflow: no-display;    
+}
+a.accordion-toggle{
+    text-decoration: none;
+}
