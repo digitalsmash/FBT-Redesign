@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="img/favicon.png">
 
-    <title>FBT</title>
+    <title>FBT-Folge</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -22,9 +22,7 @@
      -->
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
     <link href="css/fbt-master.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <link href="css/article.css" rel="stylesheet">
     
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -36,7 +34,7 @@
 
   <!-- hier ist rest -->
 
-<body class="fuelux">
+<body class="article fuelux">
   <header class="container-fluid">
     <div class="row">
       <div class="container">
@@ -261,8 +259,7 @@
                   </li>
                 </ul>
               </li>
-              <!--Nesting Menu 
-              -->
+              
               <li class="dropdown mega-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Partner<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li class="nav-grid">
@@ -398,278 +395,17 @@
 </div>
 </header>
 
-  <div class="carousel-wrapper">
-
-      <div class="carousel slide article-slide" id="myCarousel">
-
-<!--                    <img class="img-responsive tablet-bg visible-sm" src="img/tablet-bg.jpg" alt="">-->
-          <!-- Nav tabs -->
-       
-        <div class="carousel-inner cont-slider hidden-xs hidden-sm">
-          <div class="item active">
-            <img class="img-responsive" src="http://cdn.icelandair.com/servlet/file/store36/item778118/version2/hotelroom-1754x562.jpg">
-            <div class="carousel-caption">
-              <h3>Lorem ipsum dolor sit amet</h3>
-              <p>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
-               <a class="btn btn-default pull-right" href="#"><i class="fa fa-angle-right"></i> Mehr erfahren</a>
-            </div>
-          </div>
-
-          <div class="item">
-            <img class="img-responsive" src="http://cdn.icelandair.com/servlet/file/store36/item778118/version2/hotelroom-1754x562.jpg">
-            <div class="carousel-caption">
-              <h3>Hello and Welcome</h3>
-              <p>Carousels require the use of an id on the outermost container (the .carousel) for carousel controls to function properly</p>
-               <a class="btn btn-default pull-right" href="#"><i class="fa fa-angle-right"></i> Mehr erfahren</a>
-            </div>
-          </div>
-
-          <div class="item">
-            <img class="img-responsive" src="http://cdn.icelandair.com/servlet/file/store36/item778118/version2/hotelroom-1754x562.jpg">
-            <div class="carousel-caption">
-              <h3>Hello and Welcome</h3>
-              <p>Carousels require the use of an id on the outermost container (the .carousel) for carousel controls to function properly</p>
-               <a class="btn btn-default pull-right" href="#"><i class="fa fa-angle-right"></i> Mehr erfahren</a>
-            </div>
-          </div>
-
-          <div class="item">
-            <img class="img-responsive" src="http://cdn.icelandair.com/servlet/file/store36/item778118/version2/hotelroom-1754x562.jpg">
-            <div class="carousel-caption">
-              <h3>Hello and Welcome</h3>
-              <p>Carousels require the use of an id on the outermost container (the .carousel) for carousel controls to function properly</p>
-              <a class="btn btn-default pull-right" href="#"><i class="fa fa-angle-right"></i> Mehr erfahren</a>
-            </div>
-          </div> 
-        </div>
-
-
-        <div class="container">
-
-          <div id="ibeForm" class="col-md-4 col-sm-8" role="tabpanel">
-            <ul class="nav nav-tabs nav-justified" role="tablist">
-              <li role="presentation" class="active">
-                <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
-                  <i class="fa fa-plane"></i> <span class="hidden-xs">Flug</span>
-                </a>
-              </li>
-              <li role="presentation">
-                <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
-                  <i class="fa fa-bed"></i>
-                  <span class="hidden-xs"> Hotel </span>
-                </a>
-              </li>
-              <li role="presentation">
-                <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
-                  <i class="fa fa-train"></i>
-                   <span class="hidden-xs"> Bahn</span>
-                 </a>
-              </li>
-              <li role="presentation">
-                <a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
-                  <i class="fa fa-car"></i>
-                  <span class="hidden-xs"> Mietwagen</span>
-                   </a>
-              </li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-              <div role="tabpanel" class="tab-pane active" id="home">
-
-                <form>
-                  <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-6">
-                      <div class="radio checked" data-initialize="radio" id="Radio1">
-                        <label class="radio-custom">
-                          <input class="sr-only" checked="checked"  name="radioEx1" type="radio" value="option1">
-                          Hin- und Rückflug
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-6">
-                      <div class="radio" data-initialize="radio" id="Radio2">
-                        <label class="radio-custom">
-                          <input class="sr-only" name="radioEx1" type="radio" value="option2">
-                          Nur Rückflug
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row"> <!-- ROW DESTINATION -->
-                    <div class="col-md-6 col-sm-6">
-                     <div class="form-group">
-                          <label>Von</label>
-                          <input type="text" placeholder="Abflug" id="form-field-14" class="form-control">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                     <div class="form-group">
-                          <label>Nach</label>
-                          <input type="text" placeholder="Abflug" id="form-field-14" class="form-control">
-                      </div>
-                    </div>
-                  </div> <!-- DESTINATION ENDE -->
-                  <div class="row ">
-                    <div class="col-md-6 col-sm-6">
-                      <label>Hinflug</label>
-                      <div class="form-group">
-                          <div class='input-group date' id='datetimepicker2'>
-                            <input type='text' class="form-control" placeholder="tt.mm.jjjj">
-                            <span class="input-group-addon btn-default"><span class="glyphicon glyphicon-calendar"></span>
-                            </span>
-                          </div>
-                        </div>
-
-                      </div>
-
-                      <div class="col-md-6 col-sm-6">
-                        <label>Rückflug</label>
-                       <div class="form-group">
-                          <div class='input-group date' id='datetimepicker1'>
-                            <input type='text' class="form-control" placeholder="tt.mm.jjjj">
-                            <span class="input-group-addon btn-default"><span class="glyphicon glyphicon-calendar"></span>
-                            </span>
-                          </div>
-                        </div>
-
-                    </div> 
-                  </div><!-- ROW DATE -->
-
-                  <div class="row"> <!-- ROW PASSANGER -->
-                    <div class="col-md-6 col-sm-6">
-                      <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                          <label for="">Erwachsene</label>
-                          <div class="spinbox" data-initialize="spinbox" id="mySpinbox">
-                            <input type="text" class="form-control input-mini spinbox-input">
-                            <div class="spinbox-buttons btn-group btn-group-vertical">
-                              <button type="button" class="btn btn-default spinbox-up btn-xs">
-                                <span class="glyphicon glyphicon-chevron-up"></span><span class="sr-only">Increase</span>
-                              </button>
-                              <button type="button" class="btn btn-default spinbox-down btn-xs">
-                                <span class="glyphicon glyphicon-chevron-down"></span><span class="sr-only">Decrease</span>
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                          <label for="">Kinder 2-11</label>
-                          <div class="spinbox" data-initialize="spinbox" id="mySpinbox">
-                            <input type="text" class="form-control input-mini spinbox-input">
-                            <div class="spinbox-buttons btn-group btn-group-vertical">
-                              <button type="button" class="btn btn-default spinbox-up btn-xs">
-                                <span class="glyphicon glyphicon-chevron-up"></span><span class="sr-only">Increase</span>
-                              </button>
-                              <button type="button" class="btn btn-default spinbox-down btn-xs">
-                                <span class="glyphicon glyphicon-chevron-down"></span><span class="sr-only">Decrease</span>
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
     
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                      <div class="btn-group selectlist" data-resize="none" data-initialize="selectlist" id="classSelectlist">
-
-                        <button class="btn btn-light class" type="button">
-                          <span class="selected-label"></span>
-                        </button>
-
-                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                          <span class="caret"></span>
-                          <span class="sr-only">Toggle Dropdown</span>
-                        </button>
-
-                        <ul class="dropdown-menu" role="menu">
-                          <li data-value="1"><a href="#">Economy</a></li>
-                          <li data-value="1"><a href="#">Premium-Economy</a></li>
-                          <li data-value="1"><a href="#">Business / First</a></li>
-                          <li data-value="1"><a href="#">First</a></li>
-                        </ul>
-                        <input class="hidden hidden-field" name="classSelectlist" readonly="readonly" aria-hidden="true" type="text"/>
-                      </div>
-                    </div>
-                  </div> <!-- PASSANGER ENDE-->
-                  
-                  <div class="row"> <!-- ROW HOTEL -->
-                    <div class="col-md-6 col-sm-6 col-xs-6">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="checkbox">
-                            <label>
-                              <input type="checkbox"> Hotel
-                            </label>
-                          </div>
-                        </div>
-                        <div class="col-md-6 ">
-                          <div class="checkbox">
-                            <label>
-                              <input type="checkbox"> Mietwagen
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-6">
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox"> Direktflug
-                        </label>
-                      </div>
-                    </div>
-                  </div><!-- Hotel ENDE -->
-                  <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                       <button type="submit" class="btn btn-primary btn-block">Suchen</button>
-                    </div>
-                  </div>
-                </form>
-
-              </div>
-              <div role="tabpanel" class="tab-pane fade" id="profile">...</div>
-              <div role="tabpanel" class="tab-pane fade" id="messages">...</div>
-              <div role="tabpanel" class="tab-pane fade" id="settings">...</div>
-            </div>
-          </div>
-          
-          
-          <!-- Indicators -->
-          <div class="indicator">
-            <ol class="carousel-indicators visible-lg visible-md">
-              <li class="active" data-slide-to="0" data-target="#myCarousel">
-                <img alt="" title="" src="http://placehold.it/120x44/cccccc/ffffff">
-              </li>
-              <li class="" data-slide-to="1" data-target="#myCarousel">
-                <img alt="" title="" src="http://placehold.it/120x44/cccccc/ffffff">
-              </li>
-              <li class="" data-slide-to="2" data-target="#myCarousel">
-                <img alt="" title="" src="http://placehold.it/120x44/cccccc/ffffff">
-              </li>
-              <li class="" data-slide-to="3" data-target="#myCarousel">
-                <img alt="" title="" src="http://placehold.it/120x44/cccccc/ffffff">
-              </li>
-            </ol>
-          </div>
-        </div>
-         <!-- Controls -->
-         <div class="carousel-control-wrapper visible-lg visible-md">
-          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>              
-      </div>
-
-  </div> <!-- Carousel ENDE -->
-
   <div class="content container">
+  <div class="row">
+        <div class="col-md-12">
+            <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="active">Data</li>
+        </ol>
+        </div>
+    </div>
 
   <!-- Modal -->
 <div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -700,13 +436,10 @@
                   <span class="help-block"></span>
               </div>
               <p><a href="#">Passwort vergessen?</a></p>
-<!--              <p><a href="#">Profil anlegen</a></p>-->
-             <div class="row">
-                 <div class="col-md-6"><a href="#" class="btn btn-default btn-block"><i class="fa fa-user-plus"></i> Profil anlegen</a></div>
-                 <div class="col-md-6"><button type="submit" class="btn btn-primary btn-block"><i class="fa fa-lock"></i>Login</button></div>
-             </div>
-              
-              
+              <p><a href="#">Profil anlegen</a></p>
+             
+              <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-lock"></i>Login</button>
+<!--              <a href="#" class="btn btn-default btn-block"><i class="fa fa-user-plus"></i> Profil anlegen</a>-->
               
           </form>
         </div>
@@ -732,242 +465,150 @@
 </div>
 
 <!-- Modal ENDE -->
-
-
-    <div class="row">
+    
+    
+     <div class="row">
       <div class="col-md-8 col-sm-8">
-        <div id="news-list" class="widget">
-          <h3>Business Travel News</h3>
-          <div class="row">
-          <div class="col-md-6">
-            <img class="img-responsive" src="data/content-3.jpg" alt="">
-            <a href="#"><h3 class="news">Ein zweiter Reisepass hilft, Ärger zu vermeiden</h3></a>
-            <p><a href=""><span class="label label-default">Destination</span></a><span class="date"><i class="fa fa-calendar"></i> 24.02.2015</span></p>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat consetetur sadipscing elitr consetetur sadipscing elitr, sed diam nonumy. sed diam nonumy eirmod tempor invidunt consetetur sadipscing elitr, sed diam nonumy.
-            </p>
-            <!-- <a class="btn btn-primary" href="#"><i class="fa fa-angle-right"></i> zum Arktikel</a> -->
-          </div>
-
-          <div class="col-md-6">
-            <div class="news list-group">
-              <a href="#" class="list-group-item ">
-                <img class="img-responsive" src="data/content-1.jpg" alt="">
-                <h4 class="list-group-item-heading">Autobahnsperren am ersten März-Wochenende</h4>
-                <p class="list-group-item-text">
-                  <span class="label label-default">Destination</span> <span class="date"><i class="fa fa-calendar"></i> 24.02.2015</span>
-                </p>
-              </a>
-              <a href="#" class="list-group-item ">
-                <img class="img-responsive" src="data/content-2.jpg" alt="">
-                <h4 class="list-group-item-heading">Korean Air erweitert ihr Netzwerk in China</h4>
-                <p class="list-group-item-text">
-                  <span class="label label-default">Destination</span> <span class="date"><i class="fa fa-calendar"></i> 24.02.2015</span>
-                </p>
-              </a>
-              <a href="#" class="list-group-item ">
-                <img class="img-responsive" src="data/content-4.jpg" alt="">
-                <h4 class="list-group-item-heading">Delta baut drahtloses Internet an Bord aus</h4>
-                <p class="list-group-item-text">
-                  <span class="label label-default">Destination</span> <span class="date"><i class="fa fa-calendar"></i> 24.02.2015</span>
-                </p>
-              </a>
-              <a href="#" class="list-group-item ">        
-                <img class="img-responsive" src="data/content-5.jpg" alt="">
-                <h4 class="list-group-item-heading">Spanien: Streikserie bei Abfertiger Swissport</h4>
-                <p class="list-group-item-text">
-                  <span class="label label-default">Destination</span> <span class="date"><i class="fa fa-calendar"></i> 24.02.2015</span>
-                </p>
-              </a>
+      <article class="widget">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="widget landing">
+                    <a href="#">
+                       <img class="img-responsive" src="data/content-3.jpg" alt="">
+                        <h3 class="news">Flug</h3>
+                        <p>Unsere zuverlässigen Partner bringen Sie sicher an Ziel</p>
+                    </a>
+                </div>
+                
             </div>
-          </div>
-          </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="widget landing">
+                    <a href="#">
+                       <img class="img-responsive" src="data/content-3.jpg" alt="">
+                        <h3 class="news">Flug</h3>
+                        <p>Unsere zuverlässigen Partner bringen Sie sicher an Ziel</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="widget landing">
+                    <a href="#">
+                       <img class="img-responsive" src="data/content-3.jpg" alt="">
+                        <h3 class="news">Flug</h3>
+                        <p>Unsere zuverlässigen Partner bringen Sie sicher an Ziel</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="widget landing">
+                    <a href="#">
+                       <img class="img-responsive" src="data/content-3.jpg" alt="">
+                        <h3 class="news">Flug</h3>
+                        <p>Unsere zuverlässigen Partner bringen Sie sicher an Ziel</p>
+                    </a>
+                </div>
+                
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="widget landing">
+                    <a href="#">
+                       <img class="img-responsive" src="data/content-3.jpg" alt="">
+                        <h3 class="news">Flug</h3>
+                        <p>Unsere zuverlässigen Partner bringen Sie sicher an Ziel</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="widget landing">
+                    <a href="#">
+                       <img class="img-responsive" src="data/content-3.jpg" alt="">
+                        <h3 class="news">Flug</h3>
+                        <p>Unsere zuverlässigen Partner bringen Sie sicher an Ziel</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="widget landing">
+                    <a href="#">
+                       <img class="img-responsive" src="data/content-3.jpg" alt="">
+                        <h3 class="news">Flug</h3>
+                        <p>Unsere zuverlässigen Partner bringen Sie sicher an Ziel</p>
+                    </a>
+                </div>
+            </div>
         </div>
+       </article>
       </div>
       <!--Side Menu -->
       <div class="side col-md-4 col-sm-4">
-        <div class="widget office">
+        
         <div class="row">
-            <div class="col-md-12">
-                <h3>Ihr Reisebüro</h3>
-              <p>
-                Informieren Sie sich direkt bei Ihrem Reisebüro in der Nähe
-              </p>
-              <div class="input-group" role="search" id="office">
-                <input type="text" class="form-control" placeholder="PLZ"/>
-                  <span class="input-group-btn">
-                    <button class="btn btn-default" type="button">
-                      <i class="fa fa-search"></i> <span class="hidden-sm">Reisebüro</span>
-                      <span class="sr-only">Search</span>
-                    </button>
-                  </span>
+        
+          <div class="col-md-12">
+            <!--            Accordion-->
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+             
+              
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <h4 class="panel-title">Ihr Reisebüro</h4>
+                </a>
+              
+              
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">
+                  <p>
+                    Informieren Sie sich direkt bei Ihrem Reisebüro in der Nähe
+                  </p>
+                  <div class="input-group" role="search" id="office">
+                    <input type="text" class="form-control" placeholder="PLZ"/>
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">
+                          <i class="fa fa-search"></i> <span class="hidden-sm">Reisebüro</span>
+                          <span class="sr-only">Search</span>
+                        </button>
+                      </span>
                   </div>
                   <p>
                     Das nächste Reisebüro in Ihrer Nähe ist:
                   </p>
                   <a href="#"><h4><i class="fa fa-angle-right"></i><span>Hildesheim</h4></a>
-                </div>
               </div>
             </div>
-            <div class="list-group widget">
-            <div class="row">
-              <div class="col-md-12">
-            
-              <h3>Reisetools</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.
-            </p>
-              <a href="#" class="list-group-item "><i class="fa fa-angle-right"></i>Länderinformation</a>
-              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>checkmytrip</a>
-              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>ESTA / Einreise USA</a>
-              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Porta ac consectetur ac</a>
-              <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Auswärtiges Amt</a>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  <h4 class="panel-title">Reisetools</h4>
+                </a>
             </div>
-
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.
+                </p>
+                  <a href="#" class="list-group-item "><i class="fa fa-angle-right"></i>Länderinformation</a>
+                  <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>checkmytrip</a>
+                  <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>ESTA / Einreise USA</a>
+                  <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Porta ac consectetur ac</a>
+                  <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i>Auswärtiges Amt</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+<!--        Accordion ENDE-->
           </div>
         </div>
-      </div>
+        
 
-      
+      </div>
+    </div>
   </div>
 
-    <div class="row divider">
-      <div class="col-md-12">
-        <h2>Entspannte Reisen. Entspannte Geschäfte.</h2>
-      </div>
-    </div>
-
-  <div class="row">
-      <div class="col-md-4 col-sm-4">
-        <div class="widget">
-         
-          <h3>Wir nehmen Service persönlich</h3>
-          <p>
-            FIRST Business Travel ist Ihr erfahrener Spezialist für Geschäftsreisen mit individuellem Service und maßgeschneiderten Lösungen. Wir sorgen deutschlandweit in mehr als 80 Büros, per 24h-Hotline und im Internet dafür, dass von der Buchung über die Reise bis hin zur Abrechnung für Sie alles bequem, schnell, preiswert und sicher abläuft.
-          </p>
-          <a href="#" class="btn btn-primary" role="button"><i class="fa fa-angle-right"></i> Mehr erfahren</a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-4">
-        <div class="widget">
-          <h3>FIRST Mobile Traveller</h3>
-          <p>
-            Mit Hilfe der überarbeiteten, kostenfreien App von TouristMobile, begleitet FIRST Business Travel ihre Kunden überall hin und überwacht gebuchte Flug- und Bahnreisen minutiös. 
-          </p>
-          <a href="#" class="btn btn-primary" role="button"><i class="fa fa-angle-right"></i> Mehr erfahren</a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-4">
-        <div class="widget">
-          <h3>EINS C - Das Magazin für Geschäftsreisende</h3>
-          <p>
-            Unser Kundenmagazin "EINS C" erscheint 4mal im Jahr und richtet sich an Geschäftsreisende, Travel-Manager und Sekretärinnen speziell in mittelständischen Unternehmen.
-          </p>
-          <a href="#" class="btn btn-primary" role="button"><i class="fa fa-angle-right"></i> Mehr erfahren</a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="row divider">
-      <div class="col-md-12">
-        <h2>Beliebte Reiseziele</h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-3 col-sm-6">
-        <div class="widget thumbnail">
-          <img class="img-responsive" src="data/thumb-1.jpg" alt="">
-          <div class="caption">
-            <h3> Headline</h3>
-            <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
-            <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-angle-right"></i> Mehr erfahren</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="widget thumbnail">
-          <img class="img-responsive" src="data/thumb-2.jpg" alt="">
-          <div class="caption">
-            <h3> Headline</h3>
-            <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
-            <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-angle-right"></i> Mehr erfahren</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="widget thumbnail">
-          <img class="img-responsive" src="data/thumb-3.jpg" alt="">
-          <div class="caption">
-            <h3> Headline</h3>
-            <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
-            <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-angle-right"></i> Mehr erfahren</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="widget thumbnail">
-          <img class="img-responsive" src="data/thumb-4.jpg" alt="">
-          <div class="caption">
-            <h3> Headline</h3>
-            <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
-            <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-angle-right"></i> Mehr erfahren</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row divider">
-      <div class="col-md-12">
-        <h2>Top Themen</h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-3 col-sm-6">
-        <div class="widget thumbnail">
-          <img class="img-responsive" src="data/content-6.jpg" alt="">
-          <div class="caption">
-            <h3> Headline</h3>
-            <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
-            <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-angle-right"></i> Mehr erfahren</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="widget thumbnail">
-          <img class="img-responsive" src="data/content-5.jpg" alt="">
-          <div class="caption">
-            <h3> Headline</h3>
-            <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
-            <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-angle-right"></i> Mehr erfahren</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="widget thumbnail">
-          <img class="img-responsive" src="data/content-3.jpg" alt="">
-          <div class="caption">
-            <h3> Headline</h3>
-            <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
-            <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-angle-right"></i> Mehr erfahren</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="widget thumbnail">
-          <img class="img-responsive" src="data/content-4.jpg" alt="">
-          <div class="caption">
-            <h3> Headline</h3>
-            <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam </p>
-            <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-angle-right"></i> Mehr erfahren</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
+    
 
 
     
@@ -1022,13 +663,12 @@
           <div class="col-md-3 col-sm-4">
             <div class="list-group widget">
               <h3>Kontakt</h3>
-                    FIRST Business Travel <br>
-                    Customer Service Center <br>
-                <address>
-                    Barckhausstr. 10 <br>
-                    60325 Frankfurt am Main
-                </address>
-              
+              <p>
+                FIRST Business Travel <br>
+                Customer Service Center <br>
+                Barckhausstr. 10 <br>
+                60325 Frankfurt am Main <br>
+              </p>
               <p><strong><i class="fa fa-phone"></i> Service Hotline: 069 76803814</strong></p>
               <p>
                 Öffnungszeiten: <br>
